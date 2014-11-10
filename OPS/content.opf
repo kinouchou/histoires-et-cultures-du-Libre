@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uuid_id">36bfe262-f0e9-46be-ae99-246d31bd858d</dc:identifier>
+    <dc:publisher>Framasoft/Framabook</dc:publisher>
+    <dc:title>Histoires et cultures du Libre. Des logiciels partagés aux licences échangées</dc:title>
+    <dc:description>&lt;div&gt;&lt;p&gt;Fruit de la collaboration inédite d'auteurs provenant d'horizons disciplinaires différents, par des approches thématiques et des études de cas, cet ouvrage propose une histoire culturelle du Libre non seulement à travers l'histoire de l'informatique, mais aussi par les représentations sociales, philosophiques, juridiques et économiques qu'a cristallisées le mouvement du logiciel libre jusqu'à nos jours.&lt;/p&gt; &lt;p&gt;À l'aide de multiples clés d'analyse, et sans conception partisane, ce livre dresse un tableau des bouleversements des connaissances et des techniques que ce mouvement a engendrés. Le lecteur saura trouver dans cette approche ambitieuse et prospective autant d'outils pour mieux comprendre les enjeux de l'informatique, des réseaux, des libertés numériques, ainsi que l'impact de leurs trajectoires politiques dans la société d'aujourd'hui.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:language>fr</dc:language>
+    <dc:creator id="author">Camille Paloque Berges, Christophe Masutti</dc:creator>
+    <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+    <dc:title>Histoires et cultures du Libre. Des logiciels partagés aux licences échangées</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2013-05-23T19:51:36+00:00</dc:date>
+    <meta property="dcterms:modified">2014-10-26T01:55:00Z</meta>
+  </metadata>
+  <manifest>
+    <item media-type="image/jpeg" href="images/cover.jpeg" id="cover" />
+    <item media-type="image/png"  href="images/logo_frama.png" id="frama" />
+    <item media-type="image/png"  href="images/Djaouti_Computer_Space_Print.png" id="added7" />
+    <item media-type="image/png"  href="images/Djaouti_DoomEditingUtility.png" id="added8" />
+    <item media-type="image/png"  href="images/Djaouti_OHRRPGCE.png" id="added9" />
+    <item media-type="image/jpeg" href="images/Djaouti_SpacewarNB.jpg" id="added6" />
+    <item media-type="image/png"  href="images/Impress_comparatif.png" id="added11" />
+    <item media-type="image/jpeg" href="images/PRobertV3-img1.jpg" id="added3" />
+    <item media-type="image/png"  href="images/RCWikipedia2001NB.png" id="added19" />
+    <item media-type="image/png"  href="images/bw-1996-1998-from_epsHD.png" id="added16" />
+    <item media-type="image/png"  href="images/bw-2000-2007-from_epsHD.png" id="added17" />
+    <item media-type="image/png"  href="images/bw-2008-2012-from_epsHD.png" id="added18" />
+    <item media-type="image/png"  href="images/carte_rmll.png" id="added4" />
+    <item media-type="image/png"  href="images/cc-by.png" id="added2" />
+    <item media-type="image/png"  href="images/kde_barre_outils.png" id="added10" />
+    <item media-type="image/png"  href="images/utilisactifetnouvarticlesparmoisNB.png" id="added20" />
+    <item media-type="image/jpeg" href="images/logo_INRIA.jpg" id="inria" />
+    <item media-type="image/png"  href="images/logo_Inno3.png" id="inno3" />
+    <item media-type="image/png"  href="images/ramadefilippiimg1.png" id="added12" />
+    <item media-type="image/png"  href="images/ramadefilippiimg2.png" id="added13" />
+    <item media-type="image/png"  href="images/ramadefilippiimg3.png" id="added14" />
+    <item media-type="image/png"  href="images/ramadefilippiimg4.png" id="added15" />
+    <item media-type="image/png"  href="images/rmll_interface_revue.png" id="added5" />
+    <item media-type="application/xhtml+xml" href="textes/couverture.xhtml"    id="couv"          />
+    <item media-type="application/xhtml+xml" href="textes/titlepage.xhtml"     id="titlepage"     />
+    <item media-type="application/xhtml+xml" href="textes/titre.xhtml"         id="titre"         />
+    <item media-type="application/xhtml+xml" href="textes/infos-legales.xhtml" id="infos"         />
+    <item media-type="application/xhtml+xml" href="textes/preface.xhtml"       id="preface"       />
+    <item media-type="application/xhtml+xml" href="textes/intro-gene.xhtml"    id="intro"         />
+    <item media-type="application/xhtml+xml" href="textes/remerciements.xhtml" id="remerciements" />
+    <item media-type="application/xhtml+xml" href="textes/part1.xhtml"   id="part1"   />
+    <item media-type="application/xhtml+xml" href="textes/part1-1.xhtml" id="part1-1" />
+    <item media-type="application/xhtml+xml" href="textes/part1-2.xhtml" id="part1-2" />
+    <item media-type="application/xhtml+xml" href="textes/part1-3.xhtml" id="part1-3" />
+    <item media-type="application/xhtml+xml" href="textes/part1-4.xhtml" id="part1-4" />
+    <item media-type="application/xhtml+xml" href="textes/part2.xhtml"   id="part2"   />
+    <item media-type="application/xhtml+xml" href="textes/part2-1.xhtml" id="part2-1" />
+    <item media-type="application/xhtml+xml" href="textes/part2-2.xhtml" id="part2-2" />
+    <item media-type="application/xhtml+xml" href="textes/part2-3.xhtml" id="part2-3" />
+    <item media-type="application/xhtml+xml" href="textes/part3.xhtml"   id="part3"   />
+    <item media-type="application/xhtml+xml" href="textes/part3-1.xhtml" id="part3-1" />
+    <item media-type="application/xhtml+xml" href="textes/part3-2.xhtml" id="part3-2" />
+    <item media-type="application/xhtml+xml" href="textes/part3-3.xhtml" id="part3-3" />
+    <item media-type="application/xhtml+xml" href="textes/part4.xhtml"   id="part4"   />
+    <item media-type="application/xhtml+xml" href="textes/part4-1.xhtml" id="part4-1" />
+    <item media-type="application/xhtml+xml" href="textes/part4-2.xhtml" id="part4-2" />
+    <item media-type="application/xhtml+xml" href="textes/part5.xhtml"   id="part5"   />
+    <item media-type="application/xhtml+xml" href="textes/part5-1.xhtml" id="part5-1" />
+    <item media-type="application/xhtml+xml" href="textes/part5-2.xhtml" id="part5-2" />
+    <item media-type="application/xhtml+xml" href="textes/part5-3.xhtml" id="part5-3" />
+    <item media-type="application/xhtml+xml" href="textes/part5-4.xhtml" id="part5-4" />
+    <item media-type="application/xhtml+xml" href="textes/part5-5.xhtml" id="part5-5" />
+    <item media-type="application/xhtml+xml" href="textes/part6.xhtml"   id="part6"   />
+    <item media-type="application/xhtml+xml" href="textes/part6-1.xhtml" id="part6-1" />
+    <item media-type="application/xhtml+xml" href="textes/part6-2.xhtml" id="part6-2" />
+    <item media-type="application/xhtml+xml" href="textes/annexe.xhtml"  id="annexe"  />
+    <item media-type="application/xhtml+xml" href="textes/biblio.xhtml"  id="biblio"  />
+    <item media-type="application/xhtml+xml" href="textes/toc.xhtml"     id="toc"  properties="nav" />
+    <item media-type="text/css" href="styles/stylesheet.css"      id="stylesheet"     />
+    <item media-type="text/css" href="styles/framabook.css"       id="framabook"      />
+    <item media-type="text/css" href="styles/captain-obvious.css" id="captain-obvious"/>
+    <item media-type="text/css" href="styles/relecture.css"       id="relecture"      />
+    <item media-type="text/css" href="styles/sms.css"             id="sms"            />
+    <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="titre"/>
+    <itemref idref="infos"/>
+    <itemref idref="preface"/>
+    <itemref idref="intro"/>
+    <itemref idref="remerciements"/>
+    <itemref idref="toc"/>
+    <itemref idref="part1"/>
+    <itemref idref="part1-1"/>
+    <itemref idref="part1-2"/>
+    <itemref idref="part1-3"/>
+    <itemref idref="part1-4"/>
+    <itemref idref="part2"/>
+    <itemref idref="part2-1"/>
+    <itemref idref="part2-2"/>
+    <itemref idref="part2-3"/>
+    <itemref idref="part3"/>
+    <itemref idref="part3-1"/>
+    <itemref idref="part3-2"/>
+    <itemref idref="part3-3"/>
+    <itemref idref="part4"/>
+    <itemref idref="part4-1"/>
+    <itemref idref="part4-2"/>
+    <itemref idref="part5"/>
+    <itemref idref="part5-1"/>
+    <itemref idref="part5-2"/>
+    <itemref idref="part5-3"/>
+    <itemref idref="part5-4"/>
+    <itemref idref="part5-5"/>
+    <itemref idref="part6"/>
+    <itemref idref="part6-1"/>
+    <itemref idref="part6-2"/>
+    <itemref idref="annexe"/>
+    <itemref idref="biblio"/>
+  </spine>
+  <guide>
+    <reference href="textes/titre.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="fr" lang="fr">
+  <head>
+    <title>Brève histoire de l’identité visuelle du Libre</title>
+    <link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+  </head>
+  <body epub:type="bodymatter chapter">
+    <h2 id="part3-9" class="titre-chapitre">9. Brève histoire de l’identité visuelle du Libre</h2>
+    <p class="signature">Thibaud <span class="auteur">Hulin</span></p>
+
+    <nav id="TOC" epub:type="bodymatter toc" class="epub-toc">
+      <ol>
+        <li><a href="#part3-9.1"> 9.1 Les quatre registres de libertés et de contraintes </a></li>
+        <li><a href="#part3-9.2"> 9.2 L’énonciation éditoriale dans la mythologie Mozilla </a></li>
+        <li><a href="#part3-9.3"> 9.3 Y a-t-il une ergonomie propre au libre ? Le cas <abbr>KDE</abbr> </a></li>
+        <li><a href="#part3-9.4"> 9.4 OpenOffice et l’apprentissage de la grammaire visuelle </a></li>
+        <li><a href="#part3-9.5"> 9.5 Comment Ubuntu ordonne-t-il le « fatras sémiotique » de ses utilisateurs</a></li>
+      </ol>
+    </nav>
+
+    <p> Du panda roux de Firefox à la mouette d’OpenOffice en passant par le manchot de Linux, toutes ces mascottes animalières ont investi nos écrans. Ce « bestiaire exotique » en vigueur dans le monde du libre contraste avec l’esprit de sérieux qui domine le visuel d’autres logiciels qui soignent la référence à notre quotidien matériel : la lettre e de Internet Explorer, la fenêtre de MS Office, la pomme d’Apple… Ces logos ne sont pourtant qu’un des éléments parmi d’autres de l’espace symbolique dans lequel s’inscrivent les choix graphiques et interactifs qui constituent l’identité visuelle d’un logiciel. Raymond (2001) a décrit les spécificités organisationnelles du Libre comme relevant du genre « bazar ». À notre tour, comment décrire les spécificités de l’identité visuelle du Libre, laquelle réunit des registres sémiotiques aux fonctionnements multiples ? Pour saisir puis analyser cette originalité visuelle, nous nous appuierons sur la définition des logiciels libres, qui présente quatre libertés fondamentales, structurées chacune par un registre de contrainte propre. Nous montrerons que ce jeu de libertés et de contraintes soulève la question de l’histoire de l’identité visuelle, qui est une histoire à la fois technique et humaine. </p>
+    <p> Pour soutenir notre hypothèse d’une identité visuelle propre au Libre, nous analyserons l’évolution de quelques formes visuelles de projets libres à l’aide de notre outil liberté / contrainte : Mozilla, <abbr>KDE</abbr>, OpenOffice, Ubuntu. Ainsi décrirons-nous une identité visuelle du Libre à partir de l’histoire des développeurs et de leurs interactions avec la machine. </p>
+    <p> Dans une première section, nous présenterons les quatre libertés et les quatre contraintes qui les structurent. Chacune des quatre sections suivantes analyse ces registres avec un exemple de logiciel libre. Elles présentent sommairement un outil conceptuel d’analyse qui soit opérationnel, puis décrit comment s’articulent contraintes et libertés sous un angle historique. </p>
+
+    <section epub:type="bodymatter subchapter">
+      <h3 id="part3-9.1">9.1 Les quatre registres de libertés et de contraintes</h3>
+      <p> Afin de décrire la grammaire visuelle du Libre, il nous faut tout d’abord savoir ce que nous entendons par logiciel libre au-delà de ce que l’on sait de sa définition juridique. Notre perspective est de décrire cette grammaire à partir du concept de liberté. Ce concept de liberté n’est pas l’opposé de la contrainte, et peut donc s’interpréter du point de vue kantien. En effet pour Kant, la liberté est autonomie (<i lang="la" xml:lang="la">autos-nomos</i>), c’est-à-dire qu’elle s’impose à elle-même (<i lang="la" xml:lang="la">autos</i>) ses propres normes (<i lang="la" xml:lang="la">nomos</i>), au lieu que celles-ci lui soient imposées par une instance extérieure. Ainsi une volonté libre est « une volonté soumise à des lois morales » <a epub:type="noteref" href="#note_1" id="ref_1"> <sup>[1]</sup></a>. En ce sens, nous interprétons la liberté du logiciel libre non pas comme une liberté sans frein, mais comme un ensemble de choix fondés sur des valeurs. Sur le plan visuel, Kant considère que c’est le libre jeu des facultés de l’entendement qui assure le plaisir esthétique. Or, un logiciel libre articule à la fois une dimension esthétique (le libre jeu des formes visuelles), une dimension éthique (des valeurs et des normes de comportement), et une dimension technique (le produit et le code source soumis à des standards). Ainsi nous ferons l’hypothèse qu’au cœur de l’identité visuelle du logiciel libre se jouent des allers-retours entre des libertés et des contraintes que nous devons définir. </p>
+      <p> Quelles sont les libertés propres au logiciel libre ? La<i lang="en" xml:lang="en" class="droit"> Free Software Foundation</i> (<abbr>FSF</abbr>) en recense quatre : utiliser, redistribuer, étudier et améliorer librement un logiciel. À quelles contraintes ces libertés font-elles donc face ? Dans un environnement médiatisé par l’informatique, nous recensons quatre registres de contraintes : les contraintes liées au support numérique ; les contraintes fonctionnelles, liées au type d’application envisagé ; les contraintes liées au point de vue de l’usager, d’ordre sémiotique, physiologique ou cognitif ; enfin les contraintes liées aux valeurs collectives portées par le projet. Nous nous inspirons ici de la théorie des quatre niveaux de Bouchardon et <i>al.</i><a epub:type="noteref" href="#note_2" id="ref_2"> <sup>[2]</sup></a>, lesquels distinguent : </p>
+      <ul>
+        <li>le niveau théorique du numérique (niveau 1), ce qui est le propre du support numérique par rapport aux autres supports d’écriture comme le papier ; </li>
+        <li>le niveau applicatif (niveau 2), les fonctionnalités offertes par le logiciel ; </li>
+        <li>le niveau interprétatif (niveau 3), la manière dont nous interprétons les formes que nous percevons ; </li>
+        <li>et le niveau politique du numérique (niveau 4) <a epub:type="noteref" href="#note_3" id="ref_3"> <sup>[3]</sup></a> qui s’articule autour des codes, normes et règles implicites ou explicites au niveau de la société ou d’un collectif.</li>
+      </ul>
+      <p> Bien que nous puissions distinguer ces niveaux par l’analyse, ceux-ci constituent des dimensions inséparables de notre vie numérique. Ainsi, on ne peut pas réduire le logiciel libre à sa définition juridique, comme si le seul registre de contraintes à prendre en compte était une partie du niveau politique (niveau 4). Car les normes et les valeurs du logiciel libre continuent à faire l’objet de débats. Par exemple, Stallman <a epub:type="noteref" href="#note_4" id="ref_4"> <sup>[4]</sup></a> considère que la force du logiciel libre réside dans sa capacité à construire une société libre (<i lang="en" xml:lang="en">free society</i>). À l’inverse, pour Linus Torvalds <a epub:type="noteref" href="#note_5" id="ref_5"> <sup>[5]</sup></a>, c’est l’intérêt et le défi ludique (<i lang="en" xml:lang="en">entertainment</i>) de la solution technique qui fait que celle-ci devient un choix de société. À partir d’un point de vue politique très différent, tous deux constatent que les choix techniques (niveau 2) ne sont pas indépendants des débats publics (niveau 4). À leur tour, lorsque des partisans du l’<i lang="en" xml:lang="en">open source</i><a epub:type="noteref" href="#note_6" id="ref_6"> <sup>[6]</sup></a> considèrent que « la licence ne doit discriminer personne », ils supposent que la sphère technique n’est pas indépendante de la sphère politique. </p>
+      <p> Le niveau 3, celui de l’activité d’interprétation des formes visuelles, serait-il indépendant des autres registres de contraintes ? Les utilisateurs sont eux aussi des contributeurs actifs des logiciels libres, dans la mesure où ils sont libres de les utiliser et d’en redistribuer des copies. Pour prendre en compte les besoins et les désirs des usagers, et la manière dont ils interprètent et comprennent les interfaces au niveau sémiotique, il existe de nombreux moyens techniques : les statistiques d’usage, récoltées via le système d’exploitation, le nombre de téléchargements ou d’inscriptions, les systèmes de votes pour la résolution prioritaire de bugs ou pour obtenir de nouvelles fonctionnalités, etc. Le registre sémiotique, celui de l’interprétation humaine, est donc un nécessaire <i lang="en" xml:lang="en">feed-back </i>pour le développeur : il n’est pas séparable des registres techniques et politiques. </p>
+      <p> Enfin, le niveau 1, celui du support numérique, contraint lui aussi la production des logiciels libres, car la facilité avec laquelle nous échangeons des documents numériques ou les calculs qu’il semble autoriser pose des problèmes nouveaux ou spécifiques que nous n’avions pas lorsque nous diffusions des documents semblables sur un support papier. </p>
+      <p> Ainsi, ces quatre registres de libertés et de contraintes constituent donc un outil d’analyse des visuels offerts par les logiciels libres. Nous en proposons l’analyse dans les quatre sections suivantes.</p>
+
+      <table border="1">
+        <caption>Registres des libertés et des contraintes des logiciels libres.</caption>
+        <tbody>
+          <tr>
+            <th scope="col">Libertés</th>
+            <th scope="col">Contraintes</th>
+            <th scope="col">Concepts pour l'analyse</th>
+          </tr>
+          <tr>
+            <td>Étudier</td>
+            <td>Culture numérique</td>
+            <td>Énonciation éditoriale</td>
+          </tr>
+          <tr>
+            <td>Améliorer</td>
+            <td>Fonctionnalités techniques</td>
+            <td>Analyse fonctionnelle</td>
+          </tr>
+          <tr>
+            <td>Utiliser</td>
+            <td>Apprentissage humain</td>
+            <td>Grammaire visuelle</td>
+          </tr>
+          <tr>
+            <td>Redistribuer</td>
+            <td>Normes sociales</td>
+            <td>Normes et valeurs</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p> Nous utilisons l’approche sémiotique qui vise ici à analyser les signes visuels et leur signification, c’est-à-dire à montrer ce que ces signes dénotent, ce qu’ils disent ostensiblement, mais aussi ce qu’ils connotent, c’est-à-dire ce qu’ils nous montrent de façon implicite. Nous accorderons une attention particulière au contexte de réception des formes perçues, considérant que celles-ci s’inscrivent dans des situations sociales, historiques, techniques, culturelles et économiques données. Pour décrire chacune de ces relations de contrainte, l’analyse portera sur différentes dimensions du logiciel libre : l’énonciation éditoriale, les fonctionnalités, la grammaire visuelle et les normes sociales. Nous montrerons comment l’articulation d’un registre de liberté à un registre de contraintes permet de décrire le fonctionnement sémiotique de différents logiciels. </p>
+    </section>
+
+    <section epub:type="bodymatter subchapter">
+      <h3 id="part3-9.2">9.2 L’énonciation éditoriale dans la mythologie Mozilla</h3>
+      <p> La liberté d’étudier un logiciel semble sans limite dans la mesure où le code est accessible. Pour autant, cette lecture requiert une culture dont tout le monde ne dispose pas. À la différence d’un document papier, ce qui génère le document numérique ne nous est pas forcément accessible. Une page Web sépare forme et contenu : les différents codes (<abbr>HTML</abbr>, <abbr>CSS</abbr>, Javascript…) ne se lisent pas de la même façon que le document qui s’affiche dans le navigateur. Étudier le code source d’un logiciel libre suppose donc de disposer de compétences techniques qui prennent racine dans une culture numérique avancée, elle-même inscrite dans un espace culturel plus large. Pour décrire le fonctionnement des contraintes qui structurent la liberté d’étudier un logiciel libre, nous utiliserons le concept d’ « énonciation éditoriale » de Souchier et Jeanneret <a epub:type="noteref" href="#note_7" id="ref_7"> <sup>[7]</sup></a>, qui vise à éclairer les conditions de l’écriture numérique. Avec l’invention de ce concept, leurs auteurs tentent de décrire les conditions de possibilités des formes de l’énonciation en dépassant certaines dichotomies faciles entre culture et technique, texte et document, lecture et écriture, ancien et nouveau, matériel et immatériel, auteur et lecteur, etc. En effet, le média de l’écriture numérique, l’écran et tout ce qui relève du dispositif de lecture numérique, l’« architexte », structurent la communication numérique. Chaque dispositif d’écriture conditionne donc l’énonciation différemment. Or, avec Christin <a epub:type="noteref" href="#note_8" id="ref_8"> <sup>[8]</sup></a>, nous considérerons que l’écriture ne se réduit pas à la production de textes : le texte est à son origine un graphisme, tandis que l’écriture numérique inclut l’écriture multimédia, articulant ensemble formes graphiques et formes textuelles. Analyser le mode d’énonciation éditoriale des développeurs revient donc à analyser les conditions d’apparitions des signes à l’écran, c’est-à-dire, pour nous, une culture numérique qui apparaît particulièrement lorsque les développeurs affirment leur identité. Avec l’exemple de Mozilla, nous allons dans cette section étudier les logos et les noms par lesquels cette identité est affirmée afin de faire apparaître les conditions culturelles de cette énonciation de soi. </p>
+      <p> Tout d’abord, remarquons que la culture des développeurs ne se limite pas à sa seule dimension technologique. Elle inclut par exemple une « culture <i lang="en" xml:lang="en" class="droit">geek</i> », nécessaire pour décrypter les écritures, les formes visuelles et les codes sociaux. Cette culture se reflète jusques et y compris dans tous les documents numériques publics relatifs au projet libre. L’évolution du logo de Firefox, comme écriture visuelle, est intéressante à plus d’un titre, dans la mesure où elle évoque les procédés techniques <a epub:type="noteref" href="#note_9" id="ref_9"> <sup>[9]</sup></a>. Même s’il ne s’agit pas du même plan sémiotique qu’une interface de logiciel, sa conception s’inscrit dans le cadre d’une cohérence graphique et sémantique propre au projet de développement, d’autant que dans le cadre des logiciels libres, les développeurs décident généralement du choix du logo, tandis que les graphistes sont aussi développeurs. Or, à son origine, le code de l’actuel navigateur devient <i lang="en" xml:lang="en">open source </i>au moment de l’annonce du projet avorté de Netscape 5 en 1998 (projet Gromit), qui débouchera sur l’arrivée de Mozilla 1.0. La version <i lang="en" xml:lang="en">stand-alone </i>du navigateur apparaît avec le projet Phoenix (23/09/2002), rebaptisé Mozilla Firebird (toujours l’oiseau de feu) puis Mozilla Firefox <a epub:type="noteref" href="#note_10" id="ref_10"> <sup>[10]</sup></a> pour des raisons de marques <a epub:type="noteref" href="#note_11" id="ref_11"> <sup>[11]</sup></a>. </p>
+      <p> Lorsque qu’on lit les notes des différentes versions, ainsi que les documents des <i lang="en" xml:lang="en" class="droit">designers</i> qui ont dessiné les logos, on constate que depuis l’origine non libre du navigateur jusqu’à aujourd’hui, la rhétorique officielle évolue à partir d’un ciblage du public et dans le cadre d’objectifs ostensiblement commerciaux, en direction d’un public de plus en plus large et dans un cadre non lucratif. Certaines valeurs traversent cet héritage, comme la rapidité technique qui a toujours été mise en avant. Cependant, le discours officiel devient moins technique, moins dépendant des situations géographiques ou du profil des utilisateurs. Ainsi le globe terrestre ne doit se référer à aucun pays en particulier <a epub:type="noteref" href="#note_12" id="ref_12"> <sup>[12]</sup></a>. En effet, à son origine, le logo de <abbr>NCSA</abbr> Mosaic en 1993 présente un globe terrestre ou l’on voit clairement l’Amérique. Or, dès 1994, dans le logo de Netscape, le globe se présente à l’aide d’un simple arc et d’un jeu de contrastes, pouvant indiquer le sommet de la terre par-dessus lequel un N apparaît en partie, tel le lever d’un soleil, parfois associé à la roue d’une barre de navire. La rhétorique de la navigation maritime, pointant la précision du dispositif technique, est donc abandonnée pour pointer uniquement sur la fonction du dispositif, qui est d’accéder à des informations de niveau mondial. Le remplacement du N de Netscape par une mascotte animalière introduit dès lors un changement d’identité : l’absence de référence directe à un mot évoque davantage les caractéristiques de l’animal choisi pour mieux évoquer l’identité des acteurs du projet, ce qu’ils sont ou ce à quoi ils prétendent. Or, si les changements de noms apparaissent à l’occasion de changements stratégiques <a epub:type="noteref" href="#note_13" id="ref_13"> <sup>[13]</sup></a>, les choix visuels qui les structurent ne s’appuient pas sur la culture économique mais plutôt la culture technique des développeurs, voire la « culture <i lang="en" xml:lang="en" class="droit">geek</i> ». Par culture <i lang="en" xml:lang="en" class="droit">geek</i> nous n’entendons pas une culture de l’a-socialisation, ce qu’évoque initialement ce mot, ou par extension limitée à la connaissance des ordinateurs ; mais une culture qui se développe autour de la connaissance et de l’usage des ordinateurs, laquelle ne se limite donc pas aux machines. Par exemple, la référence à des livres de science-fiction est une constante dans l’histoire de la culture <i lang="en" xml:lang="en" class="droit">geek</i> dans le milieu du Libre. </p>
+      <p> Parmi les références éditoriales à l’identité du projet Mozilla, on trouve toute une lexicologie qui peut prétendre à une étymologie originale. Ainsi, le mot Mozilla (tout comme ChatZilla et assimilés) vient de Godzilla, le lézard de science-fiction japonaise, présent dans nombre de <abbr>BD</abbr>s de type <i>mangas</i>, puis dans les <abbr>BD</abbr>s américaines, les <i lang="en" xml:lang="en">comics</i>. Ces mots évoquent aussi l’histoire des entreprises du Web : Mozilla veut dire aussi Moz-killa, ce qui correspond en phonétique à « Mos-killer », le tueur de Mosaic, ce dernier désignant le concurrent de l’équipe Netscape <abbr>NCSA</abbr> Mosaic (qui reprenait sans vergogne le nom de son concurrent). Le mot Mozilla aurait été proposé par le développeur de Netscape et futur patron de boîte de nuit Jamie Zawinski, selon ses dires, le 5 août 1994 lors d’une réunion. Le mot s’est imposé progressivement jusqu’à désigner l’ensemble de la suite des logiciels que l’on connaît aujourd’hui. </p>
+      <p> La référence à des mascottes, à des animaux pas forcément en voie d’extinction, trouve donc ses racines dans une mythologie. Le projet <i lang="en" xml:lang="en">Phoenix browser</i>, qui visait à construire un navigateur indépendant (<i lang="en" xml:lang="en">stand-alone</i>) est à l’origine du nom Firebird (qui donna Thunderbird et Sunbird), puis de Firefox : le feu fait référence à l’antique Phénix grec. Les noms initiaux des projets de courrielleur Mozilla Minotaur (autre référence directe à la mythologie grecque) et Phoenix furent abandonnés. On trouve d’autres références mythiques avec le projet Camino (le chemin en espagnol), le navigateur pour Mac OS/X, initialement baptisé projet Chimera en raison du mélange hétéroclite de technologies et en référence aux chimères grecques. Les mythes n’ont pas tous des origines grecques bien sûr. Par exemple, la technologie XUL qui est une technologie d’affichage <abbr>XML</abbr> (prononcez <i>zoul</i>), fait référence au demi-dieu Zoul dans le film américain « <abbr>SOS</abbr> fantômes » (<cite lang="en" xml:lang="en">Ghostbusters</cite>).</p>
+
+      <table border="1">
+        <caption>Étapes donnant lieu à l'éctuel graphisme de Mozilla Firefox</caption>
+        <tbody>
+          <tr>
+            <th>Logiciel</th>
+            <th>Date</th>
+            <th>Document</th>
+            <th>Publics</th>
+            <th>Idées clés</th>
+            <th>Références</th>
+            <th>Valeurs</th>
+          </tr>
+          <tr>
+            <td>Netscape 1.0</td>
+            <td>13/10/1994</td>
+            <td> Déclaration de presse</td>
+            <td>Entrepreneurs, utilisateurs individuels et académiques</td>
+            <td>Navigateur gratuit ; commerce</td>
+            <td>Commerce, concurrence (<abbr>NCSA</abbr> Mosaic), <i lang="en" xml:lang="en">open software</i></td>
+            <td>Rapidité, simplicité, élégance, innovation</td>
+          </tr>
+          <tr>
+            <td>Mozilla 1.0</td>
+            <td>05/06/2002</td>
+            <td>Site de bienvenue</td>
+            <td>Développeurs, tout utilisateur (testeur)</td>
+            <td>Code source pouvant être réutilisé et intégré</td>
+            <td><i lang="en" xml:lang="en">open source</i></td>
+            <td>Respect des standards, la vitesse et la portabilité, stabilité</td>
+          </tr>
+          <tr>
+            <td>Phoenix 0.1</td>
+            <td>23/09/2002</td>
+            <td>Notes de version</td>
+            <td>-</td>
+            <td>Personnalisation, confort, vitesse, nombre des caractéristiques</td>
+            <td>Mozilla, Minotaur, Technologies (XUL)</td>
+            <td>Minceur, chic, « faire ce qui est juste »</td>
+          </tr>
+          <tr>
+            <td>Mozilla Firefox 0.8</td>
+            <td>14/02/2004</td>
+            <td>Notes de version</td>
+            <td>Amis, famille, collègues</td>
+            <td> Navigation par onglets, blocage des popup, gestionnaire de téléchargements.</td>
+            <td>Mozilla, Phoenix Firebird, Kazaa, <abbr>IBM</abbr></td>
+            <td> Rapidité, fonctionnalités, efficience, distribution de masse</td>
+          </tr>
+          <tr>
+            <td>Mozilla Firefox 1.0</td>
+            <td>09/11/2004</td>
+            <td>Notes de version</td>
+            <td>Amis, famille, collègues</td>
+            <td> Navigation par onglets, plurilinguisme</td>
+            <td>Mozilla Thunderbird, Kazaa</td>
+            <td>Rapidité, fonctionnalités, efficience, distribution de masse</td>
+          </tr>
+          <tr>
+            <td>Mozilla Firefox 3.5</td>
+            <td>06/05/2009</td>
+            <td>Creative brief</td>
+            <td>-</td>
+            <td>Simplifier, moderniser</td>
+            <td> La Bible (Samson et les Philistins), textures, planète Mozilla</td>
+            <td>Détails, pas de préférence géographique, trois dimensions, rapidité</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p> En fin de compte, les conditions d’énonciation de la rhétorique Mozilla contrastent par rapport au projet propriétaire initial. Avec Netscape Communications, les discours s’orientaient vers des publics plus ou moins ciblés. Avec le montage des équipes de Mozilla, la culture interne des <i lang="en" xml:lang="en" class="droit">geeks</i> l’emporte, appuyée sur la volonté de construire un imaginaire, une mythologie moderne qui se réfère à la guerre économique entre navigateurs concurrents sur fond de <i lang="en" xml:lang="en">comics </i>et de <i lang="en" xml:lang="en">mangas</i>. Cette mythologie est une construction volontaire des développeurs et pas seulement un projet marketing. Elle s’appuie sur une idéologie, qui sert le logiciel libre, et représente un ensemble de valeurs et de croyances qui accompagne la production technique. Comme le montre Barthes <a epub:type="noteref" href="#note_14" id="ref_14"> <sup>[14]</sup></a>, dans les mythologies modernes, la chaîne du signe signifiant / signifié se double, le signifié devenant le signifiant d’autre chose. Ainsi, les signes-mots Mozilla, Thunderbird, Camino, Seamonkey, etc., renvoient à des logiciels, mais aussi à un ensemble de représentations, d’affirmations et de valeurs qui forment au final une idéologie, une vision de la société qui repose avant tout sur des goûts et des croyances. Elle développe un vocabulaire particulier qui a son histoire voire sa grammaire. Par exemple, il est possible de dériver des noms à l’intérieur de la « Mozilla-langue » : Thunderbird donne lieu à Tinderbox, etc. Ce travail linguistique permet de créer une mythologie propre à Mozilla, même au prix de consensus nécessaires entre la culture des développeurs et le public, et peut contenir plusieurs niveaux de signification. Ainsi, le mot <i lang="en" xml:lang="en">seamonkey </i>(le singe de la mer) désigne en anglais le crustacé artémie, mais aussi le successeur de la suite Mozilla. Au niveau mythique, c’est une version « politiquement correcte » de <i lang="en" xml:lang="en">buttmonkey </i>(le cul du singe) qui ne désignait pas moins que l’équipe de développement de<a href="https://wiki.mozilla.org/SeaMonkey:Name_And_Version"> Netscape 6 </a> ! La multiplication des sens renforce bien sûr la force mythique de tels signes, rendus finalement plus accessibles que la mythologie grecque par la modernité et par l’humour… </p>
+      <p> Ainsi, l’histoire de la culture visuelle et textuelle des développeurs du libre tend à créer une dimension mythique. Or, le rôle de tout mythe est de se référer à un monde pour l’expliquer lorsque la raison n’est plus utile. La référence à un monde propre est explicite lorsque les développeurs parlent de « planète Mozilla ». Celle-ci prend forme dans le logo Firefox avec ce globe qui ne fait référence à aucun contexte culturel ou géographique particulier, et présente finalement une « planète de martiens » comme on a pu le lire dans un forum. Au final, cette mythologie diffuse et trouve ses racines dans la culture et les valeurs américaines, en proie à la mondialisation, même donc lorsqu’elle récupère d’autres mythologies, européennes ou japonaises. Le support numérique favorise et conditionne largement cette diffusion, tandis que la culture numérique s’enrichit de nouveaux mythes. Cette mythologie contraste nettement avec la rigueur du développement et le respect logique de la syntaxe du code, le <i lang="la" xml:lang="la">logos </i>(la raison en grec). Comme l’ont montré Souchier et Jeanneret, l’analyse de l’énonciation éditoriale fait apparaître une idéologie de la démocratisation du savoir qui contraste avec les codes culturels implicites des « lettrés du numérique ». Ainsi, la liberté d’étudier les logiciels libres nous paraît largement conditionnée par la culture <i lang="en" xml:lang="en" class="droit">geek</i> comme contrainte structurante qui vise, contre toute attente, à articuler ensemble <i lang="la" xml:lang="la">muthos </i>et <i lang="la" xml:lang="la">logos</i>. </p>
+    </section>
+
+    <section epub:type="bodymatter subchapter">
+      <h3 id="part3-9.3">9.3 Y a-t-il une ergonomie propre au libre ? Le cas <abbr>KDE</abbr></h3>
+      <p> Après avoir analysé les contraintes culturelles qui structurent la première des quatre libertés du logiciel libre, nous étudierons dans cette section la seconde liberté, celle d’améliorer un logiciel libre, afin de faire apparaître le type de contrainte qui la structure. La liberté d’améliorer un logiciel libre est contrainte par le type d’application envisagé, ce qui renvoie à un ensemble de fonctionnalités attendues. Or, beaucoup d’utilisateurs non avertis considèrent encore aujourd’hui que le Libre est peu <i lang="en" xml:lang="en">user-friendly</i>, peu adapté à l’utilisateur lambda. Sans doute beaucoup de projets, réalisés exclusivement par des développeurs polyvalents, ont contribué à cette image. Par exemple, l’usage fréquent de la console dans les systèmes de type Unix par leurs utilisateurs peut dérouter l’utilisateur habitué des interfaces graphiques. En déduire que l’usage de la console ne dérive pas d’un processus ergonomique, c’est oublier que la console peut-être très bien adaptée à l’utilisateur qui en possède les compétences. Ergonomique ne signifie pas « adapté à n’importe qui », mais au contraire « bien adapté à certains utilisateurs ». Aussi, de nombreux projets libres font appel à des ergonomes professionnels dans le cadre d’équipes dédiées qui peuvent produire des guides d’identité visuelle (<i lang="en" xml:lang="en">community identity guidelines</i>), d’ergonomie (<i lang="en" xml:lang="en">usability / human</i> <i lang="en" xml:lang="en">interface guidelines</i>) et d’accessibilité (<i lang="en" xml:lang="en">accessibility guidelines</i>). C’est le cas par exemple de l’environnement de bureau <abbr>KDE</abbr> et de son gestionnaire de fenêtres. </p>
+      <p> L’intervention d’ergonomes est une garantie censée assurer l’adaptabilité des interfaces aux capacités cognitives humaines. Si nous suivons l’historique des interfaces dans notre <a href="#fig1">figure 1</a>, nous observons que l’évolution va vers une interface simplifiée, moins contrastée, vers des couleurs plus nuancées (présence de dégradés, passage du gris au gris bleuté). En suivant notre « cheminement cognitif » <a epub:type="noteref" href="#note_15" id="ref_15"> <sup>[15]</sup></a> personnel sur les dernières moutures, nous observons que la date devient rapidement plus lisible avec des poignées plus légères. Les indicateurs de fenêtre s’allègent et le graphisme s’adoucit, nous faisant oublier progressivement le gris anthracite en vigueur dans les interfaces des années quatre-vingt-dix. L’ajout d’effets et d’animations rend progressivement l’expérience utilisateur plus conviviale. À partir de la version 4, <abbr>KDE</abbr> n’indique plus le bouton de menu (tout à fait à gauche) par un triangle noir, ni les différents bureaux (de un à quatre) par des chiffres par défaut. Enfin, tandis que <abbr>KDE</abbr> à l’origine était accompagné d’un nombre impressionnant de logiciels dotés d’interfaces graphiques pour effectuer des réglages très fins du système, le gestionnaire de bureau recentre les possibilités en fonction des besoins courants de l’utilisateur. Il introduit notamment le gestionnaire d’activités (ou d’agencements), qui permet de n’afficher que les fenêtres et logiciels correspondants à l’activité de l’utilisateur. Les besoins du public visés par <abbr>KDE</abbr> ont évolué. </p>
+      <p> Pour autant, cette évolution ne s’est pas toujours faite en douceur. Le gros travail d’ergonomie réalisé pour le passage à la version 4 a entraîné de nombreuses discussions et critiques dans la communauté. Celles-ci ont visé les bugs rencontrés et la disparition de fonctionnalités. Plus étonnant, la ressemblance de l’ensemble avec Windows Vista faisait partie des jugements négatifs, alors que cette ressemblance pourrait être un argument favorable à l’arrivée de nouveaux utilisateurs. Cependant, un travail d’autonomisation graphique par rapport à Windows Vista est visible lors du passage de la version 4.0 à la 4.3 (quatre dernières barres sur la figure suivante). </p>
+      <p> Cette problématique de la différenciation identitaire visuelle se retrouve dans d’autres environnements de bureau, par exemple avec Unity, soutenu par Canonical dans les dernières versions d’Ubuntu, ou de Gnome Shell 3.0. Les dernières versions ont été particulièrement innovantes sur le plan ergonomique, en proposant par exemple un menu d’applications qui s’affiche sur tout l’écran. Le problème de l’évolution des interfaces est alors posé, certains souhaitant largement conserver les bonnes habitudes plutôt que de renouveler l’expérience utilisateur. Dans le cas des logiciels libres, ce problème de l’évolution des interfaces ne peut être envisagé sans prendre en compte d’autres critères que ceux de la pure « expérience utilisateur ». Or, cette expression peut donner à croire que l’utilisateur est un être abstrait, indépendant de son vécu. Au contraire, la démarche ergonomique consiste à prendre en compte l’utilisateur dans sa spécificité, dans ses valeurs et dans son histoire. Dans la mesure où il existe une histoire du logiciel libre, il existe une ergonomie spécifique au libre, qui rend impossible de copier, de transposer ou de s’inspirer fortement d’une interface propriétaire pour l’implanter dans un logiciel libre. Ainsi nous doutons qu’un projet durable de logiciel libre puisse s’envisager à partir de l’idéal rationaliste de la <i lang="la" xml:lang="la">tabula rasa </i>dont parlait Descartes, qui peut prendre la forme d’une simple « analyse de l’existant » ou « analyse concurrentielle » et autres analyses de l’environnement extérieur. L’évolution d’un projet doit pouvoir aussi se penser à partir d’une analyse interne, afin de bien comprendre l’histoire fonctionnelle, technique, et donc sociale des communautés concernées, à moins de courir le risque de divisions (<i lang="en" xml:lang="en">forks</i><a epub:type="noteref" href="#note_16" id="ref_16"> <sup>[16]</sup></a>) parmi ces communautés. </p>
+      <figure>
+        <img src="../images/kde_barre_outils.png" alt="" />
+        <figcaption><span id="fig1">Figure 1</span>: Évolution des barres d'outils de l'environnement <abbr>KDE</abbr> (la version 4.0 est en noir comme dans <abbr>MS Vista</abbr>). Les 8 premières versions utilisent un fond grisé, la suivante est noire, les trois dernières utilisent un fond bleuté sobre.</figcaption>
+      </figure>
+    </section>
+
+    <section epub:type="bodymatter subchapter">
+      <h3 id="part3-9.4">9.4 OpenOffice et l’apprentissage de la grammaire visuelle</h3>
+      <p> Dans les deux exemples précédents, nous avons montré que la culture numérique (niveau théorique) ainsi que les fonctionnalités techniques (niveau applicatif) sont des contraintes qui structurent les deux premières libertés du logiciel libre, qui sont celles de l’étudier et de l’améliorer. Nous abordons maintenant la troisième liberté, qui est d’utiliser un logiciel libre, en nous concentrant cette fois sur le niveau interprétatif. Ce niveau est le niveau le plus connu du lecteur, puisqu’il s’agit de la manière dont l’utilisateur comprend ce qu’il voit à l’écran sans avoir accès au code qui génère les formes visuelles perceptibles. Aussi, nous préciserons en quoi la « grammaire visuelle » sous-tend notre perception et donc nos usages. </p>
+      <p> La troisième liberté qui est d’utiliser librement un logiciel libre nous semble doublement limitée : par le temps d’apprentissage de l’utilisateur, et par le coût de sa formation (coût de temps, d’énergie et d’argent). En effet, pour comprendre une interface, l’utilisateur doit savoir interpréter le rôle des formes visibles, savoir celles qui sont manipulables, anticiper les réactions, connaître un ensemble de conventions propres au genre de l’application ou au logiciel lui-même, etc. C’est cette activité sémiotique, de perception et d’interprétation simultanée des formes visibles, qui nous permet d’interagir avec un écran. Les développeurs d’interfaces graphiques savent de façon consciente ou non qu’il est possible de réutiliser un ensemble d’objets visuels de façon à profiter de l’expérience de l’utilisateur : c’est le cas des fenêtres, des icônes ou des menus. De même qu’un adepte de la console, ou interface en ligne de commande (<i lang="en" xml:lang="en">Command Line Interface</i>) doit connaître une syntaxe particulière pour pouvoir l’utiliser, il existe un langage informatique visuel, assujetti à une « grammaire visuelle » qui doit être connue de l’usager pour utiliser une interface graphique (<i lang="en" xml:lang="en">Graphic User Interface</i>). </p>
+      <p> Cependant, comme le remarquent Kress et Leeuwen <a epub:type="noteref" href="#note_17" id="ref_17"> <sup>[17]</sup></a>, toute grammaire visuelle n’est pas structurée de manière fixe : elle évolue avec le temps, en particulier en fonction des relations sociales qui définissent la manière dont nous interprétons telle ou telle forme. Appliquons cet outil <a epub:type="noteref" href="#note_18" id="ref_18"> <sup>[18]</sup></a> à l’évolution d’OpenOffice versions 3.2 et 3.3 ainsi qu’au projet intermédiaire Renaissance. L’analyse des métafonctions permet de caractériser les interfaces et de les différencier (Cf. tableau <em>infra</em>). Nous reprenons maintenant cette analyse en revenant sur l’histoire de ces versions. </p>
+      <p> Comme pour le navigateur Mozilla, son histoire est marquée par le départ des développeurs pour travailler à des projets similaires tout en récupérant les sources, de tels <i lang="en" xml:lang="en">forks </i>étant un phénomène fréquent dans le monde du libre. Sun Microsystems a racheté la suite propriétaire StarOffice en 1999 et a ouvert le code l’année suivante, donnant lieu à la sortie de OpenOffice 1 en 2002. Oracle Corporation a ensuite racheté Sun en 2010 mais s’est retirée du projet l’année suivante tandis que la communauté créait Libreoffice. Sous la pression d’<abbr>IBM</abbr>, le code d’OpenOffice est cédé à la fondation Apache. À l’heure où est édité cet ouvrage, le code de la suite bureautique devrait être déjà fusionné avec celui de la suite concurrente <abbr>IBM</abbr> Lotus Symphony <a epub:type="noteref" href="#note_19" id="ref_19"> <sup>[19]</sup></a>. On trouve d’autres versions basées sur le code d’OpenOffice comme Go-oo ou NéoOffice (adapté au Mac OS/X), <i lang="en" xml:lang="en" class="droit">OpenOffice4Kids</i> (version pour les enfants), etc. Or, hormis pour cette dernière, toutes ces versions ont sensiblement une interface similaire, à la différence de MS Office par exemple qui ne connaît aucun <i lang="en" xml:lang="en">fork </i>mais a profondément remanié son interface. </p>
+      <p> Bien que le calendrier n’ait pas été tenu, il existait un projet de renouvellement de l’interface important chez OpenOffice, le projet Impress Prototype <a href="http://wiki.openoffice.org/wiki/Renaissance">Renaissance</a> de l’équipe <abbr>UX</abbr> OpenOffice. Une démonstration de la future interface du logiciel de présentation pour Impress 3.3 a même été publiée en ligne en juillet 2009. La comparaison des interfaces précédentes (3.2) et futures (3.3) au projet Renaissance, comme sur la figure 2, permet de circonscrire le projet. Il ressort de l’analyse des documents de travail et de la grammaire visuelle des interfaces que le projet Renaissance a tenté d’initier une rupture visuelle à partir d’un projet centré sur le service à rendre à l’utilisateur, en privilégiant l’efficience <a epub:type="noteref" href="#note_20" id="ref_20"> <sup>[20]</sup></a>. À la suite d’un comparatif réalisé par l’équipe UX au sujet des concurrents propriétaires d’OpenOffice, les <i lang="en" xml:lang="en" class="droit">designers</i> semblent séduits par plusieurs points de l’ergonomie de MS Office 2007, en reproduisant des formes similaires comme au niveau de la barre d’outils. Pourquoi le projet Renaissance n’est-il pas mis en œuvre ? D’une part les interfaces de MS Office sont protégées par des brevets, rendant toute inspiration risquée sur le plan juridique. D’autre part, les services autour d’OpenOffice peuvent être vendus plus facilement dans la mesure où l’interface d’OpenOffice est plus proche des perceptions des utilisateurs, habitués à MS Office 2000. Or, tandis que MS Office 2007 a renouvelé son interface, la possibilité pour OpenOffice de se rallier aux habitudes des utilisateurs est un argument pour réduire les coûts de formation. Enfin, on notera bien sûr les changements stratégiques des sociétés impliquées qui jouent un rôle sur les décisions à prendre : le projet Renaissance peut être arrêté pour des raisons de financement liés à une restructuration des services ou à la révision des objectifs stratégiques, etc. </p>
+      <p> En éludant le projet Renaissance, le passage de la version 3.2 à la version 3.3 introduit un changement d’objectif. Impress 3.2 proposait un outil complet pour soutenir la communication orale pour tous, dans une relation d’échange créatif entre utilisateurs et développeurs. Apache OpenOffice 3.3 se veut un outil efficace voire puissant, tourné notamment vers le partenariat et la communication d’entreprise (présentation chiffrée, résultats et ventes, etc.). Le projet Renaissance, malgré ses qualités ergonomiques, semble moins prendre en compte l’historique des organisations impliquées sur le projet OpenOffice en prétendant, comme son nom l’indique, procéder à un renouveau radical <a epub:type="noteref" href="#note_21" id="ref_21"> <sup>[21]</sup></a>. </p>
+      <p> Ainsi, l’apprentissage de la grammaire visuelle par l’utilisateur dépend de conventions sémiotiques, mais aussi de l’histoire technique : du développement et de l’histoire des organisations soumises à des impératifs économiques. La liberté d’utiliser un logiciel libre est donc contrainte par le dispositif socio-économique dans lequel est inséré le développeur. À leur tour, les usagers interprètent différemment les interfaces en fonction de leur propre contexte socio-économique, d’apprentissage, culturel, de loisir, etc. Un projet ergonomique libre reste bien sûr possible, mais il doit fortement tenir compte de l’histoire économique et sociale de la communauté des développeurs qui oriente les usages.</p>
+
+      <table border="1">
+        <caption>Analyse métafonctionnelle de l'évolution d'OpenOffice</caption>
+        <tbody>
+          <tr>
+            <td></td>
+            <th>Modèles idéationnels</th>
+            <th>Relations interpersonnelles</th>
+            <th>Agencement textuel</th>
+          </tr>
+          <tr>
+            <td>OpenOffice Impress 3.2</td>
+            <td>Créativité : dire, commenter</td>
+            <td>Échange</td>
+            <td>Potentiel</td>
+          </tr>
+          <tr>
+            <td>Prototype Renaissance</td>
+            <td>Table rase et conviviale</td>
+            <td>Service</td>
+            <td>Efficience</td>
+          </tr>
+          <tr>
+            <td>Apache OpenOffice 3.3</td>
+            <td>Modèle économique, représentation mathématique</td>
+            <td>Partenariat et entreprenariat</td>
+            <td>Puissance</td>
+          </tr>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+
+      <figure>
+        <img src="../images/Impress_comparatif.png" alt="" />
+        <figcaption>Figure 2: Interfaces d'OpenOffice Impress 3.2, le projet Renaissance (non abouti) et Apache OpenOffice Impress 3.3</figcaption>
+      </figure>
+    </section>
+
+    <section epub:type="bodymatter subchapter">
+      <h3 id="part3-9.5">9.5 Comment Ubuntu ordonne-t-il le « fatras sémiotique » de ses utilisateurs</h3>
+      <p> Après avoir étudié les trois premières libertés du logiciel libre, nous abordons maintenant la dernière, la redistribution. Nous tentons ici de saisir ce qui contraint, et donc structure, la redistribution. Nous nous plaçons au « niveau politique » du numérique en étudiant ce en quoi les normes sociales contraignent les formes visuelles. Nous prenons comme cas d’analyse le bureau d’Ubuntu en raison de son ambition démocratique clairement affirmée. </p>
+      <p> Despres-Lonnet <a epub:type="noteref" href="#note_22" id="ref_22"> <sup>[22]</sup></a> qualifie les « écrits d’écran » <a epub:type="noteref" href="#note_23" id="ref_23"> <sup>[23]</sup></a> de « fatras sémiotique » dans le cas des icônes de bureaux informatiques : les lecteurs, ne parvenant pas à interpréter spontanément les « signes passeurs » <a epub:type="noteref" href="#note_24" id="ref_24"> <sup>[24]</sup></a> que sont parmi d’autres les icônes de bureau, sont conduits à mettre en œuvre des stratégies mnémotechniques : ils retiennent l’usage lié à tel symbole plutôt qu’ils ne décodent le symbole à chaque fois qu’ils le voient <a epub:type="noteref" href="#note_25" id="ref_25"> <sup>[25]</sup></a>. Si ce bazar peut désorienter, il est par défaut extrêmement ordonné par un ensemble de règles et de normes qui trouvent leur inspiration dans un projet de diffusion général. Face à la multiplicité des systèmes d’exploitation qui permettent de faire des tâches similaires, le choix de l’utilisateur peut inclure des critères non techniques voire politiques. Dès lors, comment des normes sociales ordonnent-elles le fatras sémiotique de nos bureaux ? Compte tenu de la place dont nous disposons, nous ne proposerons pas ici une étude de chacun des signes passeurs que sont une icône ou une zone cliquable. Nous nous concentrerons sur les changements visuels globaux des versions du bureau par défaut d’Ubuntu comme dispositif symbolique articulant des formes, des sons, des couleurs, des interactions, etc. Nous abordons ici le dispositif Ubuntu (un lexique, des interactions, des formes visuelles, des couleurs, des normes, des règles, des valeurs…) comme « signe passeur global » : à côté de la fonction instrumentale de ce qui se donne à voir ou à lire, il existe une fonction sémiotique qui suscite l’interprétation du lecteur pour anticiper ce vers quoi l’amène une nouvelle version. Nous nous situons donc sur le plan symbolique et social. </p>
+      <p> La liberté de redistribuer des logiciels libres inscrit délibérément le projet technique du libre dans le cadre d’un projet tourné vers la société. À ce titre, le projet Ubuntu ambitionne de distribuer un système d’exploitation à grande échelle. Avec cette ambition, Ubuntu est capable de transformer ses valeurs en normes, de définir ce qui est normal dans un projet libre. Lorsque le projet Ubuntu démarre en 2004 à partir d’un <i lang="en" xml:lang="en">fork </i>de la distribution de Linux Debian, il a pour objectif de créer un système d’exploitation accessible au plus grand nombre, ce qui aurait pour conséquence de « démocratiser Linux » ou de produire une « distribution générique » <a epub:type="noteref" href="#note_26" id="ref_26"> <sup>[26]</sup></a>. Le projet Ubuntu propose alors par défaut l’environnement Gnome comme bureau. Il est porté par le jeune entrepreneur sud-africain milliardaire Mark Shuttleworth via la société Canonical, à l’aide d’un apport initial de 10 millions de dollars dans la fondation Ubuntu. En référence à ses origines, l’entrepreneur a choisi un nom africain : Ubuntu signifie en bantou « humanité aux autres », avec l’idée de partage et de solidarité (« Je suis ce que je suis grâce à ce que nous sommes tous »). Le projet économique qui accompagne Ubuntu rejoint sa « philosophie », qui se réfère à la promotion du logiciel libre et à l’<i lang="en" xml:lang="en">open source</i>, mais aussi au multilinguisme, à la gratuité, à la non-discrimination des personnes. Des expressions comme « tout utilisateur devrait » ou l’idée de « reconnaissance mondiale » montrent que l’ambition d’Ubuntu est de type universaliste <a epub:type="noteref" href="#note_27" id="ref_27"> <sup>[27]</sup></a>.  Cette ambition cherche, à partir d’une vision technique, à promouvoir une certaine forme de société. Le passage des valeurs aux normes apparaît avec le projet politique d’Ubuntu, lorsqu’il définit un « code de conduite » ainsi qu’une « politique de gouvernance » pour sa communauté. Dans ces documents, Ubuntu cadre le vivre ensemble à partir de valeurs comme la prévenance, le respect, la collaboration, la consultation, la responsabilité, etc. Ces valeurs, érigées en normes, fournissent donc un cadre politique à l’idée de libre distribution, lequel permet de dire quel comportement est jugé normal, et quel comportement est soumis à sanction. L’idée de « communauté » montre bien que si une personne ne se conforme pas aux règles avancées, elle puisse être sanctionnée <i lang="la" xml:lang="la">a minima </i>par la non-appartenance à cette communauté. Enfin, ces normes dépassent la sphère de la communauté puisque la « méritocracie ouverte » prônée par Ubuntu constitue une invitation adressée à <a href="http://www.ubuntu.com/project/about-ubuntu/conduct">« tout le monde de n’importe quelle entreprise. ».</a> </p>
+      <p> Ces choix éthiques ou politiques s’inscrivent aussi dans les interfaces de la distribution, et notamment le bureau. Par exemple, les choix de palettes de couleurs connaissent une évolution certaine. La première version d’Ubuntu assume nettement sa différence d’avec les autres distributions de Linux, avec un fond de bureau couleur châtaigne, qui connote la terre ou le bois, une certaine authenticité. Les versions suivantes dérivent vers l’orange, en particulier au niveau des icônes, ce qui renvoie à plus de modernité et de convivialité. Le violet des dernières versions, au moment de l’arrivée de la nouvelle interface Unity (Ubuntu 10.04), est lié dans la culture occidentale à l’autorité des évêques et au rite d’initiation : ce choix peut s’expliquer par un compromis entre les couleurs initiales et une volonté de devenir une référence sur un marché des systèmes d’exploitation concurrentiel. L’inversion vidéo des barres de menu, comme lors de la sortie de Windows Vista, se conforme avec la diffusion en masse d’ordinateurs noirs, ce qui à l’origine a surtout pour but d’éviter les traces de doigts. Les bandes noires peuvent aussi renvoyer au cinéma, à son cadre intimiste, tout en nous donnant l’impression d’assister à une histoire extraordinaire, en connotant force et confidentialité. Dans une certaine mesure, l’évolution des chartes graphiques effectue un contrepoint par rapport à d’autres dimensions sémiotiques de la distribution. Par exemple, les noms des différentes versions d’Ubuntu correspondent à des animaux dans la filiation du bestiaire exotique du libre. Ces animaux sont un peu des « signes passeurs » puisqu’ils annoncent une nouvelle version, tout en nous invitant à les interpréter à partir des qualités que nous prêterions à ces animaux. Nous proposons dans le tableau suivant une interprétation de ces signes : noms, couleurs, formes iconiques, menus, etc. Les adjectifs sont particulièrement évocateurs. Par là, les premières versions renvoient à l’idée de recherche d’un positionnement, à de l’auto-dérision (verruqueux, vénérable, jovial, pimpant, nerveuse), puis à la recherche de reconnaissance (téméraire, fougueux, robuste, intrépide, enjoué). Les versions suivantes renvoient davantage aux qualités marketing d’un produit à distribuer (karmique, lucide, non-conformiste, chic, onirique, précis). </p>
+      <p> Ainsi, la diversité et la richesse du libre ne consistent pas à faire une interprétation directe des valeurs du libre. Sur le plan des couleurs, notons qu’à son origine, le marron était censé évoquer l’humanité ou la chaleur <a epub:type="noteref" href="#note_28" id="ref_28"> <sup>[28]</sup></a>. Le marron chaleureux de la terre contraste avec le bleu froid du ciel de certains de ses concurrents, tandis que le son du djembé au démarrage nous renvoie à des clichés de l’imaginaire africain occidental. L’histoire du bureau ne montre qu’un ensemble de dérivés par rapport à cette première idée. Les valeurs du libre s’expriment donc à travers les interfaces graphiques tout au long d’une histoire collective propre au projet. Pour les développeurs d’Ubuntu, <a href="http://www.ubuntu.com/project/about-ubuntu/our-philosophy">« notre philosophie est reflétée dans les programmes que nous produisons et incluons dans notre distribution. »</a></p>
+
+      <table border="1">
+        <caption>Histoire du bureau d'Ubuntu</caption>
+        <tbody>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Version</th>
+            <th scope="col">Nom de code</th>
+            <th scope="col">Changements visuels</th>
+            <th scope="col">Effet</th>
+            <th scope="col">Qualificatif</th>
+            <th scope="col">Mascotte</th>
+          </tr>
+          <tr>
+            <td>2004-10-20</td>
+            <td>4.10</td>
+            <td><i lang="en" xml:lang="en" class="droit">Warty Warthog</i></td>
+            <td>Couleurs marrons dominantes</td>
+            <td>Authenticité</td>
+            <td>verruqueux</td>
+            <td>phacochère</td>
+          </tr>
+          <tr>
+            <td>2005-04-08</td>
+            <td>5.04</td>
+            <td><i lang="en" xml:lang="en" class="droit">Hoary Hedgehog</i></td>
+            <td>Bureau plus lumineux</td>
+            <td>Performance</td>
+            <td>vénérable</td>
+            <td>hérisson</td>
+          </tr>
+          <tr>
+            <td>2005-10-13</td>
+            <td>5.10</td>
+            <td><i lang="en" xml:lang="en" class="droit">Breezy Badger</i></td>
+            <td>Le logo d'Ubuntu devient orange et remplace celui de Gnome</td>
+            <td>Affirmation</td>
+            <td>jovial</td>
+            <td>blaireau</td>
+          </tr>
+          <tr>
+            <td>2006-06-01</td>
+            <td>6.06 <abbr>LTS</abbr></td>
+            <td><i lang="en" xml:lang="en" class="droit">Dapper Drake</i></td>
+            <td>Thème orangé</td>
+            <td>Modernité</td>
+            <td>pimpant</td>
+            <td>canard</td>
+          </tr>
+          <tr>
+            <td>2006-10-26</td>
+            <td>6.10</td>
+            <td><i lang="en" xml:lang="en" class="droit">Edgy Eft</i></td>
+            <td>Réduction du nombre d'écrans de bureau, l'icône de Firefox remplace l'icône standard ; apparition de l'icône d'aide</td>
+            <td>Simplicité</td>
+            <td>nerveuse</td>
+            <td>salamandre</td>
+          </tr>
+          <tr>
+            <td>2007-04-19</td>
+            <td>7.04</td>
+            <td><i lang="en" xml:lang="en" class="droit">Feisty Fawn</i></td>
+            <td>L'icône du courrielleur se simplifie, arrivée de nouveaux applets</td>
+            <td>Perfection</td>
+            <td>téméraire</td>
+            <td>faon</td>
+          </tr>
+          <tr>
+            <td>2007-10-18</td>
+            <td>7.10</td>
+            <td>Gutsy Gibbon</td>
+            <td>Applet comportant le nom de l'utilisateur</td>
+            <td>Personnalisation</td>
+            <td>fougueux</td>
+            <td>gibbon</td>
+          </tr>
+          <tr>
+            <td>2008-04-24</td>
+            <td>8.04 LTS</td>
+            <td>Hardy Heron</td>
+            <td>Le nom est remplacé par l'icône d'un personnage en vert</td>
+            <td>Optimisme</td>
+            <td>robuste</td>
+            <td>héron</td>
+          </tr>
+          <tr>
+            <td>2008-10-30</td>
+            <td>8.10</td>
+            <td>Intrepid Ibex</td>
+            <td>L'icône verte est remplacée par un bouton de démarrage rouge avec le nom</td>
+            <td>Technicité</td>
+            <td>intrépide</td>
+            <td>bouquetin</td>
+          </tr>
+          <tr>
+            <td>2009-04-23</td>
+            <td>9.04</td>
+            <td>Jaunty Jackalope</td>
+            <td>Pas de différence visuelle notable</td>
+            <td></td>
+            <td>enjoué</td>
+            <td>jackalope</td>
+          </tr>
+          <tr>
+            <td>2009-10-29</td>
+            <td>9.10</td>
+            <td>Karmic Koala</td>
+            <td>Retour à un thème plus sobre ; les icônes des applets passent en noir et blanc, apparition d'une icône de courrier</td>
+            <td>Sobriété</td>
+            <td>karmique</td>
+            <td>koala</td>
+          </tr>
+          <tr>
+            <td>2010-04-29</td>
+            <td>10.04 LTS</td>
+            <td>Lucid Lynx</td>
+            <td>Les couleurs vidéos des barres d'outils s'inversent (texte gris sur fond noir), retour de plusieurs écrans du bureau ; disparition de l'icône d'aide</td>
+            <td>Évasion</td>
+            <td>lucide</td>
+            <td>lynx</td>
+          </tr>
+          <tr>
+            <td>2010-10-10</td>
+            <td>10.10</td>
+            <td>Maverick Meerkat</td>
+            <td>Apparition d'un thème violet, usage des services sociaux sur le bureau (Gwibber)</td>
+            <td>Leader</td>
+            <td>non-conformiste</td>
+            <td>suricate</td>
+          </tr>
+          <tr>
+            <td>2011-04-28</td>
+            <td>11.04</td>
+            <td>Natty Narwhal</td>
+            <td>L'interface Unity remplace celle de Gnome</td>
+            <td>Ergonomie</td>
+            <td>chic</td>
+            <td>narval</td>
+          </tr>
+          <tr>
+            <td>2011-10-13</td>
+            <td>11.10</td>
+            <td>Oneiric Ocelot</td>
+            <td>Révision du menu latéral, le logo d'Ubuntu s'agrandit en devenant une icône de ce menu aux côtés de LibreOffice</td>
+            <td>Affirmation</td>
+            <td>onirique</td>
+            <td>ocelot</td>
+          </tr>
+          <tr>
+            <td>2012-04-26</td>
+            <td>12.04 LTS</td>
+            <td>Precise Pangolin</td>
+            <td>Retour du nom d'utilisateur en haut à gauche, réduction du nombre d'applications dans le menu latéral</td>
+            <td>Précision</td>
+            <td>précis</td>
+            <td>pangolin</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside epub:type="footnotes" class="epub-footnotes">
+      <ol>
+        <li> <a epub:type="footnote" href="#ref_1" id="note_1">[1]</a> <span class="auteur">Kant</span>, Emmanuel, <cite>Fondements de la métaphysique des mœurs</cite>, Parisi : Fernand Nathan, 2004.</li>
+        <li> <a epub:type="footnote" href="#ref_2" id="note_2">[2]</a> <span class="auteur">Bouchardon</span>, Serge et al., « Explorer les possibles de l’écriture multimédia », dans : <cite>Les Enjeux de l’information et de la communication</cite> 2011/1 (2011). </li>
+        <li> <a epub:type="footnote" href="#ref_3" id="note_3">[3]</a> Le niveau 4 sera envisagé par la suite par Bruno Bachimont, un des auteurs de l’article cité. </li>
+        <li> <a epub:type="footnote" href="#ref_4" id="note_4">[4]</a> <span class="auteur">Stallman</span>, Richard M. et Joshua <span class="auteur">Gay</span>, <cite lang="en" xml:lang="en">Free software, free society : selected essays of Richard M. Stallman</cite>, Paris : Lavoisier, 2002. </li>
+        <li> <a epub:type="footnote" href="#ref_5" id="note_5">[5]</a> <span class="auteur">Torvalds</span>, Linus et David <span class="auteur">Diamond</span>, <cite>Il était une fois Linux : L’extraordinaire histoire d’une révolution accidentelle</cite>, Paris : Osman Eyrolles Multimédia, 2001. </li>
+        <li> <a epub:type="footnote" href="#ref_6" id="note_6">[6]</a> <span class="auteur">Perens</span>, Bruce, « <i lang="en" xml:lang="en" class="droit">The Open Source Definition</i> », dans : <cite lang="en" xml:lang="en">Open Source : Voices from the Open Source Revolution</cite>, sous la dir. de Chris <span class="auteur">Di-Bonna</span>, Sam i<span class="auteur">Ockman</span> et Marc <span class="auteur">Stone</span>, Sebastopol, <abbr>CA</abbr> : <a href="http://oreilly.com/openbook/opensources/book/index.html">O’Reilly</a>, 1999, p. 171–188. </li>
+        <li> <a epub:type="footnote" href="#ref_7" id="note_7">[7]</a> <span class="auteur">Souchier</span>, Emmanuel et Yves <span class="auteur">Jeanneret</span>, « L’énonciation éditoriale dans les écrits d’écran », dans : <cite>Communication et langages</cite> 145.1 (2005), 3–15. </li>
+        <li> <a epub:type="footnote" href="#ref_8" id="note_8">[8]</a> <span class="auteur">Christin</span>, Anne-Marie, éd., <cite>Histoire de l’écriture : de l’idéogramme au multimédia</cite>, Paris : Flammarion, 2011. </li>
+        <li> <a epub:type="footnote" href="#ref_9" id="note_9">[9]</a> Infographie sur l’historique de <a href="http://www.foxkeh.com/downloads/history/history-foxkeh.pdf">Mozilla Firefox</a> et son <a href="https://people.mozilla.com/~faaborg/files/20090515-creativeBrief/creativeBrief-i1-wm.png_large.png">logo</a>. Pour voir l’historique des <a href="http://sillydog.org/narchive/">interfaces de Netscape</a>, qui nous intéresse moins ici. </li>
+        <li> <a epub:type="footnote" href="#ref_10" id="note_10">[10]</a> Tandis que l’oiseau de feu est une référence explicite au Phoenix, l’expression anglaise « renard de feu » désigne en français le panda roux. </li>
+        <li> <a epub:type="footnote" href="#ref_11" id="note_11">[11]</a> Après IBPhoenix, c’est au tour du gestionnaire de base de données <i lang="en" xml:lang="en" class="droit">Firebird</i> de revendiquer ses <a href="http://news.cnet.com/2100-7344-5156101.html">droits de marque déposée</a>. </li>
+        <li> <a epub:type="footnote" href="#ref_12" id="note_12">[12]</a> « <i lang="en" xml:lang="en" class="droit"><a href="https://blog.mozilla.org/faaborg/2009/05/15/creative-brief-for-the-new-firefox-icon">Generic continents (so as not to show any form of geographic preference)</a></i> » </li>
+        <li> <a epub:type="footnote" href="#ref_13" id="note_13">[13]</a> Ceci n’est pas propre à Mozilla ; par exemple la distribution Linux <i lang="en" xml:lang="en" class="droit">Mandrake</i>, en référence au personnage de <abbr>BD</abbr> américain, est devenue Mandriva à la suite d’un rapprochement du français <i lang="en" xml:lang="en" class="droit">MandrakeSoft</i> avec l’entreprise brésilienne Conectiva, mais aussi parce que <i lang="en" xml:lang="en" class="droit">Mandrake</i> était déjà un nom déposé par l’américain <i lang="en" xml:lang="en" class="droit">Hearst Corporation</i> qui éditait justement cette<abbr> BD</abbr>. </li>
+        <li> <a epub:type="footnote" href="#ref_14" id="note_14">[14]</a> <span class="auteur">Barthes</span>, Roland, <cite>Mythologies</cite>, Paris : Seuil, 1957. </li>
+        <li> <a epub:type="footnote" href="#ref_15" id="note_15">[15]</a> <span class="auteur">Wharton</span>, Cathleen et al., « <i lang="en" xml:lang="en" class="droit">The cognitive walkthrough method : A practitioner’s guide</i> », dans : <cite lang="en" xml:lang="en">Usability inspection methods</cite>, sous la dir. de J. <span class="auteur">Nielsen</span> et R. <span class="auteur">Mack</span>, New York : John Wiley et Son, 1994, 105–140. </li>
+        <li> <a epub:type="footnote" href="#ref_16" id="note_16">[16]</a> Un <i>fork</i> est un moment où une partie d’une communauté d’un projet libre se détache du projet initial pour créer un projet différent à partir du même code source. Il existe de nombreux <i>forks</i> dans l’histoire des projets libres, par exemple entre <i lang="en" xml:lang="en" class="droit">OpenOffice</i> et LibreOffice. </li>
+        <li> <a epub:type="footnote" href="#ref_17" id="note_17">[17]</a> <span class="auteur">Kress</span>, Gunther et Theo van <span class="auteur">Leeuwen</span>, <cite lang="en" xml:lang="en">Reading Images : The Grammar of Visual Design</cite>, London : Routledge, 2006. </li>
+        <li> <a epub:type="footnote" href="#ref_18" id="note_18">[18]</a> Pour décrire de telles grammaires, ces auteurs étendent le champ de la linguistique fonctionnelle de Halliday (1994) à tous les systèmes de communication sémiotique. Ils distinguent trois métafonctions dans une grammaire visuelle que nous réutilisons dans la table (<i>infra</i>) : <ul> <li>la métafonction idéationnelle, qui relie deux objets de façon relationnelle ou hiérarchique afin de représenter des idées au sujet du monde naturel ; </li> <li>la métafonction interpersonnelle, qui manifeste des relations sociales entre le producteur, l’observateur et l’objet représenté ; </li> <li>et la métafonction textuelle, qui indique des relations internes à une forme sémiotique, lesquels forment des « textes » : un complexe de signes qui adhèrent entre eux et au contexte, et pour lequel l’ordre ou l’arrangement est tout à fait signifiant.</li></ul> </li>
+        <li> <a epub:type="footnote" href="#ref_19" id="note_19">[19]</a> Développé principalement en Chine, <abbr>IBM</abbr> Lotus Symphony n’était pas initialement un logiciel libre, mais un <i lang="en" xml:lang="en">freeware</i>, donc un logiciel gratuit dont le code n’était pas ouvert. </li>
+        <li> <a epub:type="footnote" href="#ref_20" id="note_20">[20]</a> À la différence de l’efficacité, l’efficience vise à réduire le nombre d’interactions et de formes visuelles pour un même résultat. </li>
+        <li> <a epub:type="footnote" href="#ref_21" id="note_21">[21]</a> On pourrait ici comparer le projet Renaissance au Phoenix, qui introduit bien une renaissance dans l’histoire de Mozilla ; or les conditions sont en fin de compte bien différentes, le projet OpenOffice n’ayant pas connu les mêmes déboires et attentes que chez Mozilla, et n’ayant pas forcément besoin de renaître. </li>
+        <li> <a epub:type="footnote" href="#ref_22" id="note_22">[22]</a> <span class="auteur">Despres-Lonnet</span>, Marie, « Écrits d’écran : le fatras sémiotique », dans : <cite>Communication et langages</cite> 142.1 (2004), p. 33–42. </li>
+        <li> <a epub:type="footnote" href="#ref_23" id="note_23">[23]</a> L’écrit d’écran, notion initialement proposée par E. Souchier et Y. Jeanneret, définit la sémiotique de l’organisation des signes sur l’écran. <span class="auteur">Souchier</span> et <span class="auteur">Jeanneret</span>, <i lang="la" xml:lang="la">op. cit.</i> </li>
+        <li> <a epub:type="footnote" href="#ref_24" id="note_24">[24]</a> La notion de signe passeur pourrait remplacer celle de lien hypertexte dans la mesure où elle montre aussi la fonction instrumentale du lien, mais montre davantage le fait que la forme visuelle, le nœud, suppose que le lecteur interprète la cible du lien à partir de ce qui est donné à voir. </li>
+        <li> <a epub:type="footnote" href="#ref_25" id="note_25">[25]</a> Une disquette continue de signifier « enregistrer », bien que la disquette n’a jamais été manipulée par les jeunes générations. </li>
+        <li> <a epub:type="footnote" href="#ref_26" id="note_26">[26]</a> Pour une discussion sur les conséquences de cette ambition sur les autres distributions, voir le texte d’Adrian Kingsley-Hughes - 02 avril 2008 - ZDNet.com, traduit en français sur le <a href="http://www.framablog.org/index.php/post/2008/04/06/distribution-ubuntu-substitution-linux">framablog</a>. </li>
+        <li> <a epub:type="footnote" href="#ref_27" id="note_27">[27]</a> À la différence du globe présent dans certains logos de Mozilla pouvant évoquer une « planète martienne », le logo d’Ubuntu ne représente pas la terre mais l’humain solidaire ; certaines photographies représentent des personnes pouvant être issues de continents différents. Il n’y a donc pas d’univers Ubuntu mais bien une ambition universaliste liée à un projet économique à l’échelle mondiale. </li>
+        <li> <a epub:type="footnote" href="#ref_28" id="note_28">[28]</a> Cf. l’<a href="https://wiki.ubuntu.com/MarkShuttleworth\#Why_is_the_default_desktop_in_Ubuntu_BROWN.3F">explication que donne M. Shuttleworth</a> sur le wiki d’Ubuntu. </li>
+      </ol>
+    </aside>
+  </body>
+</html>
