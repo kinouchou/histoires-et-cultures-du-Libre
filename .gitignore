@@ -1,0 +1,11 @@
+*~
+*.swp
+*.swo
+*.epub
+*.DS_Store
+*.DS_Store?
+*._*
+Thumbs.db
+calibre_bookmarks.txt
+patches/*
+
