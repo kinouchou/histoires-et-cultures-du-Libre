@@ -1,39 +1,17 @@
-/**
- * Ce fichier n’est destiné qu’à assurer la compatibilité ascendante.
- */
+/* aide à la relecture -- désactiver cette ligne avant publication de l’EPUB */
+@import url(relecture.css);
 
+/* frama-feuilles-de-style utilisées dans cet EPUB */
 @import url(framabook.css);
 @import url(captain-obvious.css);
-@import url(sms.css);
 
+/* largeur optimisée pour la lecture (XXX devrait être dans `framabook.css') */
 body {
   max-width: 48em;
   margin: 0 auto;
 }
 
-/* spécifique « Libres Conseils » */
-blockquote, .citation {
-  padding: 1em 2em;
-}
-.intro {
-  font-style: italic;
-  padding-left: 2.2em;
-  padding-bottom: 1.5em;
-}
-
-/* spécifique « Option Libre » (table_compatibilité.xhtml) */
-.entete {
-  border: 0;
-  background-color: #fff;
-}
-.entete-ligne {
-  width: 3em;
-  padding: 0.5em;
-  background-color: #ddd;
-  font-weight: bold;
-}
-
-/* spécifique « Histoires et Cultures du Libre » */
+/* règles spécifiques à « Histoires et cultures du Libre » */
 .logos {
   margin: 5em auto;
 }

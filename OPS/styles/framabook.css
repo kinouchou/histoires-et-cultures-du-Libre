@@ -18,9 +18,6 @@
  * Les classes non préfixées sont applicables à n’importe quel élément XHTML.
  */
 
-/* Aide à la relecture -- désactiver cette ligne avant publication de l’EPUB */
-@import url(relecture.css);
-
 /*******************************************************************************
  * Titres
  * On prévoit des styles spécifiques aux 3 premiers niveaux de division EPUB :
