@@ -3,15 +3,31 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="uuid_id">36bfe262-f0e9-46be-ae99-246d31bd858d</dc:identifier>
     <dc:publisher>Framasoft/Framabook</dc:publisher>
-    <dc:title>Histoires et cultures du Libre. Des logiciels partagés aux licences échangées</dc:title>
-    <dc:description>&lt;div&gt;&lt;p&gt;Fruit de la collaboration inédite d'auteurs provenant d'horizons disciplinaires différents, par des approches thématiques et des études de cas, cet ouvrage propose une histoire culturelle du Libre non seulement à travers l'histoire de l'informatique, mais aussi par les représentations sociales, philosophiques, juridiques et économiques qu'a cristallisées le mouvement du logiciel libre jusqu'à nos jours.&lt;/p&gt; &lt;p&gt;À l'aide de multiples clés d'analyse, et sans conception partisane, ce livre dresse un tableau des bouleversements des connaissances et des techniques que ce mouvement a engendrés. Le lecteur saura trouver dans cette approche ambitieuse et prospective autant d'outils pour mieux comprendre les enjeux de l'informatique, des réseaux, des libertés numériques, ainsi que l'impact de leurs trajectoires politiques dans la société d'aujourd'hui.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:title>
+      Histoires et cultures du Libre.
+      Des logiciels partagés aux licences échangées.
+    </dc:title>
+    <dc:description>
+      Fruit de la collaboration inédite d'auteurs provenant d'horizons
+      disciplinaires différents, par des approches thématiques et des études de
+      cas, cet ouvrage propose une histoire culturelle du Libre non seulement à
+      travers l'histoire de l'informatique, mais aussi par les représentations
+      sociales, philosophiques, juridiques et économiques qu'a cristallisées le
+      mouvement du logiciel libre jusqu'à nos jours.
+      À l'aide de multiples clés d'analyse, et sans conception partisane, ce
+      livre dresse un tableau des bouleversements des connaissances et des
+      techniques que ce mouvement a engendrés. Le lecteur saura trouver dans
+      cette approche ambitieuse et prospective autant d'outils pour mieux
+      comprendre les enjeux de l'informatique, des réseaux, des libertés
+      numériques, ainsi que l'impact de leurs trajectoires politiques dans la
+      société d'aujourd'hui.
+    </dc:description>
     <dc:language>fr</dc:language>
     <dc:creator id="author">Camille Paloque Berges, Christophe Masutti</dc:creator>
     <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
-    <dc:title>Histoires et cultures du Libre. Des logiciels partagés aux licences échangées</dc:title>
     <meta name="cover" content="cover"/>
     <dc:date>2013-05-23T19:51:36+00:00</dc:date>
-    <meta property="dcterms:modified">2014-10-26T01:55:00Z</meta>
+    <meta property="dcterms:modified">2014-11-16T10:25:00Z</meta>
   </metadata>
   <manifest>
     <item media-type="image/jpeg" href="images/cover.jpeg" id="cover" />
