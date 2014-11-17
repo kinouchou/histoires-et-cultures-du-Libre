@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!-- données requises -->
     <dc:identifier id="uuid_id">36bfe262-f0e9-46be-ae99-246d31bd858d</dc:identifier>
-    <dc:publisher>Framasoft/Framabook</dc:publisher>
+    <dc:language>fr</dc:language>
     <dc:title>
       Histoires et cultures du Libre.
       Des logiciels partagés aux licences échangées.
     </dc:title>
+    <!-- données optionnelles -->
     <dc:description>
       Fruit de la collaboration inédite d’auteurs provenant d’horizons
       disciplinaires différents, par des approches thématiques et des études de
@@ -22,7 +24,7 @@
       numériques, ainsi que l’impact de leurs trajectoires politiques dans la
       société d’aujourd’hui.
     </dc:description>
-    <dc:language>fr</dc:language>
+    <dc:publisher>Framasoft/Framabook</dc:publisher>
     <dc:creator id="author">Camille Paloque Berges, Christophe Masutti</dc:creator>
     <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
     <meta name="cover" content="cover"/>
