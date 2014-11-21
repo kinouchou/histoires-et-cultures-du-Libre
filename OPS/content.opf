@@ -115,7 +115,4 @@
     <itemref idref="annexe"/>
     <itemref idref="biblio"/>
   </spine>
-  <guide>
-    <reference href="textes/titre.xhtml" type="cover" title="Cover"/>
-  </guide>
 </package>
