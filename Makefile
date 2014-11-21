@@ -1,4 +1,4 @@
-VERSION := $(shell date -u +%Y%m%d%H%M)
+VERSION := $(shell date -u +%Y%m%d_%H%M)
 EPUB := "Histoires_et_cultures_du_Libre_$(VERSION).epub"
 
 all:
