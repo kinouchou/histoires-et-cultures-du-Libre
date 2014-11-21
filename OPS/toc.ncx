@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="fra">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="fr">
   <head>
     <meta content="36bfe262-f0e9-46be-ae99-246d31bd858d" name="dtb:uid"/>
     <meta content="4" name="dtb:depth"/>
-    <meta content="calibre (0.8.38)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
     <meta content="0" name="dtb:maxPageNumber"/>
   </head>
@@ -13,661 +12,766 @@
   </docTitle>
 
   <navMap>
-    <navPoint id="22474bec-e52d-434f-865d-e83ca2154e07" playOrder="1">
+    <navPoint id="frontmatter" playOrder="1">
       <navLabel>
-        <text>Introduction générale</text>
+        <text>Avant-propos</text>
       </navLabel>
-      <content src="textes/intro-gene.xhtml"/>
+      <content src="textes/titre.xhtml"/>
 
-      <navPoint id="a19727f0-dffa-4132-8fae-2d6a4f017aac" playOrder="2">
+      <navPoint id="preface" playOrder="2">
         <navLabel>
-          <text>Première partie (Pré-) histoire</text>
+          <text>Préface</text>
         </navLabel>
-        <content src="textes/part1.xhtml#part1"/>
+        <content src="textes/preface.xhtml#preface"/>
+      </navPoint>
 
-        <navPoint id="a19727f0-dffa-4132-8fae-2d6a4f017ad" playOrder="3">
+      <navPoint id="intro" playOrder="3">
+        <navLabel>
+          <text>Introduction générale</text>
+        </navLabel>
+        <content src="textes/introduction.xhtml#introduction"/>
+      </navPoint>
+
+      <navPoint id="remerciements" playOrder="4">
+        <navLabel>
+          <text>Remerciements</text>
+        </navLabel>
+        <content src="textes/remerciements.xhtml#remerciements"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part1" playOrder="5">
+      <navLabel>
+        <text>Première partie — (Pré-) histoire</text>
+      </navLabel>
+      <content src="textes/part1.xhtml#part1"/>
+
+      <navPoint id="ch01" playOrder="6">
+        <navLabel>
+          <text>Chapitre 1 Des réseaux ouverts, pour quoi faire ?</text>
+        </navLabel>
+        <content src="textes/part1-1.xhtml#part1-1"/>
+
+        <navPoint id="ch01-1" playOrder="7">
           <navLabel>
-            <text>Chapitre 1 Des réseaux ouverts, pour quoi faire ?</text>
+            <text>1.1 Les réseaux seront ouverts ou ne seront pas</text>
           </navLabel>
-          <content src="textes/part1-1.xhtml#part1-1intro"/>
-          <navPoint id="d682d9f6-8590-49f0-8ac8-7bcb3183e7b2" playOrder="4">
-            <navLabel>
-              <text>1.1 Les réseaux seront ouverts ou ne seront pas</text>
-            </navLabel>
-            <content src="textes/part1-1.xhtml#part1-1.1"/>
-          </navPoint>
-          <navPoint id="810be019-c575-40e0-9613-e709b1a484cc" playOrder="5">
-            <navLabel>
-              <text>1.2 Du réseau « libertaire » au réseau « libéral »</text>
-            </navLabel>
-            <content src="textes/part1-1.xhtml#part1-1.2"/>
-          </navPoint>
-          <navPoint id="d01f9325-4389-4b98-9f61-09ef476f7faf" playOrder="6">
-            <navLabel>
-              <text>1.3 Conclusion</text>
-            </navLabel>
-            <content src="textes/part1-1.xhtml#part1-1.conclusion"/>
-          </navPoint>
+          <content src="textes/part1-1.xhtml#part1-1.1"/>
         </navPoint>
 
-        <navPoint id="1e9e3273-0f58-4d84-a856-84d633842e4a" playOrder="7">
+        <navPoint id="ch01-2" playOrder="8">
           <navLabel>
-            <text>Chapitre 2 Ingénieurs, hackers : naissance d’une culture</text>
+            <text>1.2 Du réseau « libertaire » au réseau « libéral »</text>
           </navLabel>
-          <content src="textes/part1-2.xhtml#part1-2"/>
-          <navPoint id="acd96671-beb9-488c-ac48-23dcdabe89c3" playOrder="8">
-            <navLabel>
-              <text>2.1 À propos d’ordinateurs et de temps partagé</text>
-            </navLabel>
-            <content src="textes/part1-2.xhtml#part1-2.1"/>
-          </navPoint>
-          <navPoint id="067cdbe3-fad8-4d7b-86b1-805c9f465225" playOrder="9">
-            <navLabel>
-              <text>2.2 Moufettes et canard sauvages</text>
-            </navLabel>
-            <content src="textes/part1-2.xhtml#part1-2.2"/>
-          </navPoint>
-          <navPoint id="47723b58-78b6-49ae-be94-70b027fa307e" playOrder="10">
-            <navLabel>
-              <text>2.3 Le travail hacker</text>
-            </navLabel>
-            <content src="textes/part1-2.xhtml#part1-2.3"/>
-          </navPoint>
-          <navPoint id="42302248-b9c6-447f-b606-6a8c82f87d58" playOrder="11">
-            <navLabel>
-              <text>2.4 Réseau</text>
-            </navLabel>
-            <content src="textes/part1-2.xhtml#part1-2.4"/>
-          </navPoint>
-          <navPoint id="0a03d4c9-ffa9-432f-afed-4090bc1400be" playOrder="12">
-            <navLabel>
-              <text>2.5 Une contre-culture ?</text>
-            </navLabel>
-            <content src="textes/part1-2.xhtml#part1-2.5"/>
-          </navPoint>
+          <content src="textes/part1-1.xhtml#part1-1.2"/>
         </navPoint>
 
-        <navPoint id="8a441f36-5dc5-4b14-b5f6-2feb6e850e95" playOrder="13">
+        <navPoint id="ch01-3" playOrder="9">
           <navLabel>
-            <text>Chapitre 3 Esquisse d’une archéologie de l’informatique communicante</text>
+            <text>1.3 Conclusion</text>
           </navLabel>
-          <content src="textes/part1-3.xhtml#part1-3"/>
-          <navPoint id="f9a68a77-e147-4348-98e5-2737bd33cd78" playOrder="14">
-            <navLabel>
-              <text>3.1 L’augmentation et le bootstrapping</text>
-            </navLabel>
-            <content src="textes/part1-3.xhtml#part1-3.1"/>
-          </navPoint>
-          <navPoint id="27840463-13ec-44f1-9912-c8c9cc5003e2" playOrder="15">
-            <navLabel>
-              <text>3.2 La modélisation, la résolution de problèmes et le réseau</text>
-            </navLabel>
-            <content src="textes/part1-3.xhtml#part1-3.2"/>
-          </navPoint>
-          <navPoint id="fa0e389d-cbc0-4f30-b09c-a320af6a1844" playOrder="16">
-            <navLabel>
-              <text>3.3 Conclusion</text>
-            </navLabel>
-            <content src="textes/part1-3.xhtml#part1-3.3"/>
-          </navPoint>
-        </navPoint>
-
-        <navPoint id="7b73a1fb-b96c-4d27-848c-fa2ed4def7e9" playOrder="17">
-          <navLabel>
-            <text>Chapitre 4 Sharing Source Code</text>
-          </navLabel>
-          <content src="textes/part1-4.xhtml#part1-4"/>
+          <content src="textes/part1-1.xhtml#part1-1.3"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="6312143c-cc8c-4d75-8c6b-899c80590611" playOrder="18">
+      <navPoint id="ch02" playOrder="10">
         <navLabel>
-          <text>Deuxième partie Économie du Libre</text>
+          <text>Chapitre 2 Ingénieurs, hackers : naissance d’une culture</text>
         </navLabel>
-        <content src="textes/part2.xhtml#part2"/>
+        <content src="textes/part1-2.xhtml#part1-2"/>
 
-        <navPoint id="ee82f0de-2c3d-464e-861f-f314664f606f" playOrder="19">
+        <navPoint id="ch02-1" playOrder="11">
           <navLabel>
-            <text>Chapitre 5 Les modèles économiques du logiciel libre et leur évolution</text>
+            <text>2.1 À propos d’ordinateurs et de temps partagé</text>
           </navLabel>
-          <content src="textes/part2-1.xhtml#part2-5"/>
-          <navPoint id="d673ebd4-7290-4575-9a63-c9ae1e8dd205" playOrder="20">
-            <navLabel>
-              <text>5.1 Années 1960 et 1970, les débuts de l’informatique : des modèles économiques basés sur le matériel</text>
-            </navLabel>
-            <content src="textes/part2-1.xhtml#part2-5.1"/>
-          </navPoint>
-          <navPoint id="c35f8cb7-dbfa-4fc3-a015-8205d1c421d1" playOrder="21">
-            <navLabel>
-              <text>5.2 Années 1980, l’époque des pionniers du Libre</text>
-            </navLabel>
-            <content src="textes/part2-1.xhtml#part2-5.2"/>
-          </navPoint>
-          <navPoint id="36ce6ac7-ffe2-4b54-a658-90de69df97fc" playOrder="22">
-            <navLabel>
-              <text>5.3 Années 1990, naissance de GNU/Linux : du logiciel libre à l’Open Source Initiative (OSI)</text>
-            </navLabel>
-            <content src="textes/part2-1.xhtml#part2-5.3"/>
-          </navPoint>
-          <navPoint id="3c580e0b-ef09-403b-8a4a-03752203e937" playOrder="23">
-            <navLabel>
-              <text>5.4 Première décennie 2000, professionnalisation de l’open source et structuration d’un nouveau secteur économique</text>
-            </navLabel>
-            <content src="textes/part2-1.xhtml#part2-5.4"/>
-          </navPoint>
-          <navPoint id="15bf986e-7a13-4224-8783-c7a43c51c026" playOrder="24">
-            <navLabel>
-              <text>5.5 Conclusion</text>
-            </navLabel>
-            <content src="textes/part2-1.xhtml#part2-5.5"/>
-          </navPoint>
+          <content src="textes/part1-2.xhtml#part1-2.1"/>
         </navPoint>
 
-        <navPoint id="002a01b3-b994-47b1-8587-ff4faf34599c" playOrder="25">
+        <navPoint id="ch02-2" playOrder="12">
           <navLabel>
-            <text>Chapitre 6 Le logiciel libre : un renouveau du modèle industriel coopératif de l’informatique</text>
+            <text>2.2 Moufettes et canard sauvages</text>
           </navLabel>
-          <content src="textes/part2-2.xhtml#part2-6"/>
-          <navPoint id="85388f7d-daa2-4b69-94cd-22c8fc6f9907" playOrder="26">
-            <navLabel>
-              <text>6.1 Le modèle coopératif de production du logiciel, des origines au renouveau porté par Internet</text>
-            </navLabel>
-            <content src="textes/part2-2.xhtml#part2-6.1"/>
-          </navPoint>
-          <navPoint id="69e94dde-9df4-458f-bcc1-000f2c1875ff" playOrder="27">
-            <navLabel>
-              <text>6.2 Les modèles industriels du Libre</text>
-            </navLabel>
-            <content src="textes/part2-2.xhtml#part2-6.2"/>
-          </navPoint>
-          <navPoint id="5b9a5400-2808-4c86-8cb8-c6170b01aef2" playOrder="28">
-            <navLabel>
-              <text>6.3 Conclusion</text>
-            </navLabel>
-            <content src="textes/part2-2.xhtml#part2-6.3"/>
-          </navPoint>
-
+          <content src="textes/part1-2.xhtml#part1-2.2"/>
         </navPoint>
-        <navPoint id="e9ebcb07-d914-411e-b889-5d60ccbb064b" playOrder="29">
+
+        <navPoint id="ch02-3" playOrder="13">
           <navLabel>
-            <text>Chapitre 7 Les RMLL, haut lieu mobile du libre francophone</text>
+            <text>2.3 Le travail hacker</text>
           </navLabel>
-          <content src="textes/part2-3.xhtml#part2-7"/>
-          <navPoint id="e7aabf57-fefd-471e-8e97-b2e36348cbbd" playOrder="30">
-            <navLabel>
-              <text>7.1 Les RMLL, de l’ancrage aquitain au lieu mobile</text>
-            </navLabel>
-            <content src="textes/part2-3.xhtml#part2-7.1"/>
-          </navPoint>
-          <navPoint id="cdf09c87-c6de-4198-b42d-1977955d22f9" playOrder="31">
-            <navLabel>
-              <text>7.2 Un haut lieu du Libre, point d’entrée de la mouvance mondiale sur les territoires</text>
-            </navLabel>
-            <content src="textes/part2-3.xhtml#part2-7.2"/>
-          </navPoint>
-          <navPoint id="7910f128-09d6-4372-ba91-11e65d8112f4" playOrder="32">
-            <navLabel>
-              <text>7.3 Conclusion : les RMLL, lieu privilégié d’observation de la mouvance</text>
-            </navLabel>
-            <content src="textes/part2-3.xhtml#part2-7.3"/>
-          </navPoint>
+          <content src="textes/part1-2.xhtml#part1-2.3"/>
+        </navPoint>
+
+        <navPoint id="ch02-4" playOrder="14">
+          <navLabel>
+            <text>2.4 Réseau</text>
+          </navLabel>
+          <content src="textes/part1-2.xhtml#part1-2.4"/>
+        </navPoint>
+
+        <navPoint id="ch02-5" playOrder="15">
+          <navLabel>
+            <text>2.5 Une contre-culture ?</text>
+          </navLabel>
+          <content src="textes/part1-2.xhtml#part1-2.5"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="2b652e47-ecfc-4cc5-b6ab-69a2d929d344" playOrder="33">
+      <navPoint id="ch03" playOrder="16">
         <navLabel>
-          <text>Troisième partie Trajectoires du Libre</text>
+          <text>Chapitre 3 Esquisse d’une archéologie de l’informatique communicante</text>
         </navLabel>
-        <content src="textes/part3.xhtml#part3"/>
-        <navPoint id="59e3e5c1-63f2-4faa-97b8-599a7bda68cb" playOrder="34">
+        <content src="textes/part1-3.xhtml#part1-3"/>
+
+        <navPoint id="ch03-1" playOrder="17">
           <navLabel>
-            <text>Chapitre 8 Influence du Libre dans l’histoire du jeu vidéo</text>
+            <text>3.1 L’augmentation et le bootstrapping</text>
           </navLabel>
-          <content src="textes/part3-1.xhtml#part3-8"/>
-          <navPoint id="5fe0f9d7-e8a5-42f6-9888-e2cb5b23e4c3" playOrder="35">
-            <navLabel>
-              <text>8.1 Le Libre comme philosophie originelle des jeux vidéo ?</text>
-            </navLabel>
-            <content src="textes/part3-1.xhtml#part3-8.1"/>
-          </navPoint>
-          <navPoint id="951711d0-0f36-45cb-a768-46a4a8a9b651" playOrder="36">
-            <navLabel>
-              <text>8.2 Du shareware au modding</text>
-            </navLabel>
-            <content src="textes/part3-1.xhtml#part3-8.2"/>
-          </navPoint>
-          <navPoint id="8c98aebe-f004-42f0-83b2-41d7f4aa1297" playOrder="37">
-            <navLabel>
-              <text>8.3 La création amateur de jeu vidéo : de l’open source au Jeu 2.0</text>
-            </navLabel>
-            <content src="textes/part3-1.xhtml#part3-8.3"/>
-          </navPoint>
-          <navPoint id="37a53de4-ec2a-4462-a607-97cd8dd7e563" playOrder="38">
-            <navLabel>
-              <text>8.4 Conclusion</text>
-            </navLabel>
-            <content src="textes/part3-1.xhtml#part3-8.4"/>
-          </navPoint>
+          <content src="textes/part1-3.xhtml#part1-3.1"/>
         </navPoint>
 
-        <navPoint id="e79abeaa-b63e-4b76-b95a-a25f35f33608" playOrder="39">
+        <navPoint id="ch03-2" playOrder="18">
           <navLabel>
-            <text>Chapitre 9 Brève histoire de l’identité visuelle du Libre</text>
+            <text>3.2 La modélisation, la résolution de problèmes et le réseau</text>
           </navLabel>
-          <content src="textes/part3-2.xhtml#part3-9"/>
-          <navPoint id="c4517bc1-db8a-41bd-9fef-decdea4eb48f" playOrder="40">
-            <navLabel>
-              <text>9.1 Les quatre registres de libertés et de contraintes</text>
-            </navLabel>
-            <content src="textes/part3-2.xhtml#part3-9.1"/>
-          </navPoint>
-          <navPoint id="fb636b5d-dccd-4836-a8af-5c962b36a7d4" playOrder="41">
-            <navLabel>
-              <text>9.2 L’énonciation éditoriale dans la mythologie Mozilla</text>
-            </navLabel>
-            <content src="textes/part3-2.xhtml#part3-9.2"/>
-          </navPoint>
-          <navPoint id="81a1e195-ed30-4a89-9855-9d1d9cbb0613" playOrder="42">
-            <navLabel>
-              <text>9.3 Y a-t-il une ergonomie propre au libre ? Le cas KDE</text>
-            </navLabel>
-            <content src="textes/part3-2.xhtml#part3-9.3"/>
-          </navPoint>
-          <navPoint id="615c635d-c597-4932-aaae-6cf0b6a228f7" playOrder="43">
-            <navLabel>
-              <text>9.4 OpenOffice et l’apprentissage de la grammaire visuelle</text>
-            </navLabel>
-            <content src="textes/part3-2.xhtml#part3-9.4"/>
-          </navPoint>
-          <navPoint id="84a4dc63-61ef-44b2-9575-1e6502c48b65" playOrder="44">
-            <navLabel>
-              <text>9.5 Comment Ubuntu ordonne-t-il le « fatras sémiotique » de ses utilisateurs</text>
-            </navLabel>
-            <content src="textes/part3-2.xhtml#part3-9.5"/>
-          </navPoint>
+          <content src="textes/part1-3.xhtml#part1-3.2"/>
         </navPoint>
 
-        <navPoint id="67017e5b-2b7d-4956-bda3-60e0630b4013" playOrder="45">
+        <navPoint id="ch03-3" playOrder="19">
           <navLabel>
-            <text>Chapitre 10 Free software et open source : utopie et idéologie</text>
+            <text>3.3 Conclusion</text>
           </navLabel>
-          <content src="textes/part3-3.xhtml#part3-10"/>
-          <navPoint id="9fd4390d-576c-41a6-86e6-669fe26c2469" playOrder="46">
-            <navLabel>
-              <text>10.1 Le mariage de raison entre GNU et Linux</text>
-            </navLabel>
-            <content src="textes/part3-3.xhtml#part3-10.1"/>
-          </navPoint>
-          <navPoint id="994c50a6-2c82-4d10-bfc9-f38a0b12464e" playOrder="47">
-            <navLabel>
-              <text>10.2 La naissance du mouvement open source</text>
-            </navLabel>
-            <content src="textes/part3-3.xhtml#part3-10.2"/>
-          </navPoint>
-          <navPoint id="6699bd28-b4f6-435e-bac5-a76cb4a40589" playOrder="48">
-            <navLabel>
-              <text>10.3 Le pragmatisme contre l’idéologie</text>
-            </navLabel>
-            <content src="textes/part3-3.xhtml#part3-10.3"/>
-          </navPoint>
-          <navPoint id="e732cd3a-2d67-4187-be80-86b83a3de68e" playOrder="49">
-            <navLabel>
-              <text>10.4 L’idéologue n’est pas nécessairement celui qu’on croit</text>
-            </navLabel>
-            <content src="textes/part3-3.xhtml#part3-10.4"/>
-          </navPoint>
-          <navPoint id="ba8bdcf5-14c6-4e23-a5a6-eec070827b3a" playOrder="50">
-            <navLabel>
-              <text>10.5 Un débat obsolète ?</text>
-            </navLabel>
-            <content src="textes/part3-3.xhtml#part3-10.5"/>
-          </navPoint>
+          <content src="textes/part1-3.xhtml#part1-3.3"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="7a8e3204-4b47-4d3f-97ff-80f559b6e64b" playOrder="51">
+      <navPoint id="ch04" playOrder="20">
         <navLabel>
-          <text>Quatrième partie Licences libres</text>
+          <text>Chapitre 4 Sharing Source Code</text>
         </navLabel>
-        <content src="textes/part4.xhtml#part4"/>
-        <navPoint id="000be173-ef4c-45f0-9197-6106498f818f" playOrder="52">
+        <content src="textes/part1-4.xhtml#part1-4"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part2" playOrder="21">
+      <navLabel>
+        <text>Deuxième partie — Économie du Libre</text>
+      </navLabel>
+      <content src="textes/part2.xhtml#part2"/>
+
+      <navPoint id="ch05" playOrder="22">
+        <navLabel>
+          <text>Chapitre 5 Les modèles économiques du logiciel libre et leur évolution</text>
+        </navLabel>
+        <content src="textes/part2-1.xhtml#part2-5"/>
+
+        <navPoint id="ch05-1" playOrder="23">
           <navLabel>
-            <text>Chapitre 11 L’évolution des licences libres et open source : critères, finalités et complétude ?</text>
+            <text>5.1 Années 1960 et 1970, les débuts de l’informatique : des modèles économiques basés sur le matériel</text>
           </navLabel>
-          <content src="textes/part4-1.xhtml#part4-11"/>
-          <navPoint id="4e12fed6-e220-469a-9bc6-7d81417ab9c7" playOrder="53">
-            <navLabel>
-              <text>11.1 La distribution des cartes : le processus d’apparition des licences libres</text>
-            </navLabel>
-            <content src="textes/part4-1.xhtml#part4-11.1"/>
-          </navPoint>
-          <navPoint id="208b30a9-ba33-40f3-9246-d0827f3d617c" playOrder="54">
-            <navLabel>
-              <text>11.2 La consolidation et l’harmonisation des outils juridiques (depuis 2007)</text>
-            </navLabel>
-            <content src="textes/part4-1.xhtml#part4-11.2"/>
-          </navPoint>
-          <navPoint id="b2677cae-f1c4-498a-b5ac-912c5d552462" playOrder="55">
-            <navLabel>
-              <text>11.3 Conclusion</text>
-            </navLabel>
-            <content src="textes/part4-1.xhtml#part4-11.3"/>
-          </navPoint>
+          <content src="textes/part2-1.xhtml#part2-5.1"/>
         </navPoint>
 
-        <navPoint id="20b980a9-cec6-4cb4-b9cc-e1af3c0871a5" playOrder="56">
+        <navPoint id="ch05-2" playOrder="24">
           <navLabel>
-            <text>Chapitre 12 Libre choix ou choix du Libre ?</text>
+            <text>5.2 Années 1980, l’époque des pionniers du Libre</text>
           </navLabel>
-          <content src="textes/part4-2.xhtml#part4-12"/>
-          <navPoint id="1287e99b-ba54-481e-b2aa-f70b44f80f95" playOrder="57">
-            <navLabel>
-              <text>12.1 Genèse des licences libres</text>
-            </navLabel>
-            <content src="textes/part4-2.xhtml#part4-12.1"/>
-          </navPoint>
-          <navPoint id="1e8f3e8d-5799-468f-a85e-bb8677a887ec" playOrder="58">
-            <navLabel>
-              <text>12.2 Du libre à l’ouvert ?</text>
-            </navLabel>
-            <content src="textes/part4-2.xhtml#part4-12.2"/>
-          </navPoint>
-          <navPoint id="4f0753a7-ae9c-478c-bff6-6844583b0005" playOrder="59">
-            <navLabel>
-              <text>12.3 Une question de liberté</text>
-            </navLabel>
-            <content src="textes/part4-2.xhtml#part4-12.3"/>
-          </navPoint>
-          <navPoint id="cdab6496-a667-456d-8cd5-e00cea745f58" playOrder="60">
-            <navLabel>
-              <text>12.4 Perspectives et conclusion</text>
-            </navLabel>
-            <content src="textes/part4-2.xhtml#part4-12.4"/>
-          </navPoint>
+          <content src="textes/part2-1.xhtml#part2-5.2"/>
+        </navPoint>
+
+        <navPoint id="ch05-3" playOrder="25">
+          <navLabel>
+            <text>5.3 Années 1990, naissance de GNU/Linux : du logiciel libre à l’Open Source Initiative (OSI)</text>
+          </navLabel>
+          <content src="textes/part2-1.xhtml#part2-5.3"/>
+        </navPoint>
+
+        <navPoint id="ch05-4" playOrder="26">
+          <navLabel>
+            <text>5.4 Première décennie 2000, professionnalisation de l’open source et structuration d’un nouveau secteur économique</text>
+          </navLabel>
+          <content src="textes/part2-1.xhtml#part2-5.4"/>
+        </navPoint>
+
+        <navPoint id="ch05-5" playOrder="27">
+          <navLabel>
+            <text>5.5 Conclusion</text>
+          </navLabel>
+          <content src="textes/part2-1.xhtml#part2-5.5"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="af6f05b6-f3fe-4bc4-a946-ff3feeed8bf7" playOrder="61">
+      <navPoint id="ch06" playOrder="28">
         <navLabel>
-          <text>Cinquième partie Études de cas</text>
+          <text>Chapitre 6 Le logiciel libre : un renouveau du modèle industriel coopératif de l’informatique</text>
         </navLabel>
-        <content src="textes/part5.xhtml#part5"/>
-        <navPoint id="b4389332-abc6-4592-b4ea-4aea95a64611" playOrder="62">
+        <content src="textes/part2-2.xhtml#part2-6"/>
+
+        <navPoint id="ch06-1" playOrder="29">
           <navLabel>
-            <text>Chapitre 13 Mozilla : histoire d’une libération</text>
+            <text>6.1 Le modèle coopératif de production du logiciel, des origines au renouveau porté par Internet</text>
           </navLabel>
-          <content src="textes/part5-1.xhtml#part5-13"/>
-          <navPoint id="b361d12f-3e2c-4a5a-9452-4a44a45f14a8" playOrder="63">
-            <navLabel>
-              <text>13.1 1993 – 1997 : héritage de Mosaïc et percée de Netscape</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.1"/>
-          </navPoint>
-          <navPoint id="56e8263f-1e7e-4242-b97b-d42d6a560dfe" playOrder="64">
-            <navLabel>
-              <text>13.2 1998 – 2002 : libération de Netscape et victoire de Microsoft</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.2"/>
-          </navPoint>
-          <navPoint id="ec30a651-63f1-4d2d-aea9-cc9318be4928" playOrder="65">
-            <navLabel>
-              <text>13.3 2003 – 2007 : fin de Netscape et succès de Firefox</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.3"/>
-          </navPoint>
-          <navPoint id="b7d289e1-ff9f-40ab-bf3d-694bb2a5943f" playOrder="66">
-            <navLabel>
-              <text>13.4 2008 – 2012 : la concurrence de Webkit</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.4"/>
-          </navPoint>
-          <navPoint id="a1bfd557-227b-4198-b14b-4383b0118297" playOrder="67">
-            <navLabel>
-              <text>13.5 Discussion</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.5"/>
-          </navPoint>
-          <navPoint id="d7a0566d-3a5d-41b5-a0b1-09ae330cc51f" playOrder="68">
-            <navLabel>
-              <text>13.6 Conclusion</text>
-            </navLabel>
-            <content src="textes/part5-1.xhtml#part5-13.6"/>
-          </navPoint>
+          <content src="textes/part2-2.xhtml#part2-6.1"/>
         </navPoint>
 
-        <navPoint id="416573b3-c2d8-4954-a81d-9ee3864e7bc3" playOrder="69">
+        <navPoint id="ch06-2" playOrder="30">
           <navLabel>
-            <text>Chapitre 14 Pure data, logiciel libre de productions créatives</text>
+            <text>6.2 Les modèles industriels du Libre</text>
           </navLabel>
-          <content src="textes/part5-2.xhtml#part5-14"/>
-          <navPoint id="a7ee8389-5367-4dbf-9dbd-82bbcd760ba1" playOrder="70">
-            <navLabel>
-              <text>14.1 Pure Data, un logiciel de programmation visuelle</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.1"/>
-          </navPoint>
-          <navPoint id="8306f1c4-b7fa-43f2-b6ab-67c19a88288c" playOrder="71">
-            <navLabel>
-              <text>14.2 Dialogue entre scientifiques et artistes</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.2"/>
-          </navPoint>
-          <navPoint id="4301d851-5e73-4f29-937d-3d921fef1c57" playOrder="72">
-            <navLabel>
-              <text>14.3 Questions de licences</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.3"/>
-          </navPoint>
-          <navPoint id="43a192f3-ee06-4e69-a17b-c4bb55eb6802" playOrder="73">
-            <navLabel>
-              <text>14.4 La Communauté</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.4"/>
-          </navPoint>
-          <navPoint id="026dff74-1bba-4ba1-bdad-5f5dffb5e3ed" playOrder="74">
-            <navLabel>
-              <text>14.5 Les atouts de Pure Data</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.5"/>
-          </navPoint>
-          <navPoint id="1f6a234b-7d93-425a-a622-244af4b3b838" playOrder="75">
-            <navLabel>
-              <text>14.6 Conclusion</text>
-            </navLabel>
-            <content src="textes/part5-2.xhtml#part5-14.6"/>
-          </navPoint>
+          <content src="textes/part2-2.xhtml#part2-6.2"/>
         </navPoint>
 
-        <navPoint id="f4af6b85-f5c6-4c0c-8637-7218b4b18022" playOrder="76">
+        <navPoint id="ch06-3" playOrder="31">
           <navLabel>
-            <text>Chapitre 15 Wikipédia et le monde du Libre</text>
+            <text>6.3 Conclusion</text>
           </navLabel>
-          <content src="textes/part5-3.xhtml#part5-15"/>
-          <navPoint id="4b8bc559-cf1b-4805-83bc-27c7bc137a4e" playOrder="77">
-            <navLabel>
-              <text>15.1 De Nupedia et GNUpedia à Wikipédia, un projet né sur les bases du logiciel libre</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.1"/>
-          </navPoint>
-          <navPoint id="f6cfa72c-3abe-496a-894c-4b8a8d411435" playOrder="78">
-            <navLabel>
-              <text>15.2 Les Wikipédiens, une communauté issue du monde du Libre</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.2"/>
-          </navPoint>
-          <navPoint id="f64691b1-1de5-4bca-a7e0-7dbd34ebb0d7" playOrder="79">
-            <navLabel>
-              <text>15.3 Des règles de vie au sein d’un des plus grands projets collaboratifs du monde</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.3"/>
-          </navPoint>
-          <navPoint id="06b5f852-ad69-42a3-90b8-eb2be4174255" playOrder="80">
-            <navLabel>
-              <text>15.4 Wikipédia, un projet libre au-delà du Libre</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.4"/>
-          </navPoint>
-          <navPoint id="200c2b5b-5760-48b1-b202-77924d668c03" playOrder="81">
-            <navLabel>
-              <text>15.5 Wikipédia, un projet politique ?</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.5"/>
-          </navPoint>
-          <navPoint id="8dea6b25-003f-4f19-8934-31015ff95f25" playOrder="82">
-            <navLabel>
-              <text>15.6 Conclusion</text>
-            </navLabel>
-            <content src="textes/part5-3.xhtml#part5-15.6"/>
-          </navPoint>
-        </navPoint>
-
-        <navPoint id="55330584-e19e-45a7-b1c6-4b30b22c72d2" playOrder="83">
-          <navLabel>
-            <text>Chapitre 16 Du logiciel libre pour l’Assemblée Nationale Liberté du code versus liberté des usages</text>
-          </navLabel>
-          <content src="textes/part5-4.xhtml#part5-16"/>
-          <navPoint id="892dcbe5-972f-4284-ac68-fbf750af6b43" playOrder="84">
-            <navLabel>
-              <text>16.1 Genèse</text>
-            </navLabel>
-            <content src="textes/part5-4.xhtml#part5-16.1"/>
-          </navPoint>
-          <navPoint id="18dcf4f4-7752-44ba-9485-c829ded34d1f" playOrder="85">
-            <navLabel>
-              <text>16.2 Réalisations</text>
-            </navLabel>
-            <content src="textes/part5-4.xhtml#part5-16.2"/>
-          </navPoint>
-          <navPoint id="c9692698-cd05-4939-b6ec-dd612bca43d1" playOrder="86">
-            <navLabel>
-              <text>16.3 Confrontations</text>
-            </navLabel>
-            <content src="textes/part5-4.xhtml#part5-16.3"/>
-          </navPoint>
-          <navPoint id="85983493-9e5c-42ca-8223-0b0d092203b4" playOrder="87">
-            <navLabel>
-              <text>16.4 Usages</text>
-            </navLabel>
-            <content src="textes/part5-4.xhtml#part5-16.4"/>
-          </navPoint>
-          <navPoint id="2787f3b2-6820-4b5e-a652-c225d9f56707" playOrder="88">
-            <navLabel>
-              <text>16.5 En conclusion</text>
-            </navLabel>
-            <content src="textes/part5-4.xhtml#part5-16.5"/>
-          </navPoint>
-        </navPoint>
-
-        <navPoint id="4d0f30d0-88db-4274-b1f7-d4ca5245cc08" playOrder="89">
-          <navLabel>
-            <text>Chapitre 17 RTFM ! La chimie computationnelle : une communauté scientifique loin du libre</text>
-          </navLabel>
-          <content src="textes/part5-5.xhtml#part5-17"/>
-          <navPoint id="de9bbf7c-4811-4ccd-98cb-3324e0c6bf69" playOrder="90">
-            <navLabel>
-              <text>17.1 RTFM ! What FM ?</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.1"/>
-          </navPoint>
-          <navPoint id="36be42f6-ce1a-4a50-a342-4ccb1048f6ec" playOrder="91">
-            <navLabel>
-              <text>17.2 La chimie computationnelle</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.2"/>
-          </navPoint>
-          <navPoint id="17178fc3-e5c1-46e4-99e6-7569e9a51669" playOrder="92">
-            <navLabel>
-              <text>17.3 Le terminal graphique</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.3"/>
-          </navPoint>
-          <navPoint id="869f9532-2e52-427a-a6c5-6ebcac7d872c" playOrder="93">
-            <navLabel>
-              <text>17.4 Cinq pratiques caractéristiques du Libre</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.4"/>
-          </navPoint>
-          <navPoint id="89878195-8b50-4175-9b73-ad1c56cd257f" playOrder="94">
-            <navLabel>
-              <text>17.5 Trois contraintes à la pérennité du Libre</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.5"/>
-          </navPoint>
-          <navPoint id="e93407c3-3d40-49a5-bf3b-957064149e32" playOrder="95">
-            <navLabel>
-              <text>17.6 La rupture du desktop modeling</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.6"/>
-          </navPoint>
-          <navPoint id="0dcf5a9c-7645-4400-93b9-e9e08884a0a5" playOrder="96">
-            <navLabel>
-              <text>17.7 La « générification » des logiciels</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.7"/>
-          </navPoint>
-          <navPoint id="e663e52a-544a-4fdd-8135-a368ea8292e1" playOrder="97">
-            <navLabel>
-              <text>17.8 What FM ? Tensions dans la communauté</text>
-            </navLabel>
-            <content src="textes/part5-5.xhtml#part5-17.8"/>
-          </navPoint>
+          <content src="textes/part2-2.xhtml#part2-6.3"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="3d3ea660-3546-4424-bf5c-a5067fe18f0b" playOrder="98">
+      <navPoint id="ch07" playOrder="32">
         <navLabel>
-          <text>Sixième partie Témoignages : Libre et institutions</text>
+          <text>Chapitre 7 Les RMLL, haut lieu mobile du libre francophone</text>
         </navLabel>
-        <content src="textes/part6.xhtml#part6"/>
-        <navPoint id="e85e05c1-dd4b-4dea-a14d-0e0d1a6d8516" playOrder="99">
+        <content src="textes/part2-3.xhtml#part2-7"/>
+
+        <navPoint id="ch07-1" playOrder="33">
           <navLabel>
-            <text>Chapitre 18 Un point d’histoire de la stratégie d’Inria sur l’open source</text>
+            <text>7.1 Les RMLL, de l’ancrage aquitain au lieu mobile</text>
           </navLabel>
-          <content src="textes/part6-1.xhtml#part6-18"/>
+          <content src="textes/part2-3.xhtml#part2-7.1"/>
         </navPoint>
-        <navPoint id="3f5e3eb0-c750-441d-aff5-d2150d79d1f3" playOrder="100">
+
+        <navPoint id="ch07-2" playOrder="34">
           <navLabel>
-            <text>Chapitre 19 La place du logiciel libre au CNRS Témoignage d’un ingénieur en informatique au CNRS depuis 1984</text>
+            <text>7.2 Un haut lieu du Libre, point d’entrée de la mouvance mondiale sur les territoires</text>
           </navLabel>
-          <content src="textes/part6-2.xhtml#part6-19"/>
-          <navPoint id="ef17423d-07e4-4892-bef1-b6129f91108a" playOrder="101">
-            <navLabel>
-              <text>19.1 Quelques faits passés</text>
-            </navLabel>
-            <content src="textes/part6-2.xhtml#part6-19.1"/>
-          </navPoint>
-          <navPoint id="35546ab2-2832-4f82-86ab-dbb8bc73ae90" playOrder="102">
-            <navLabel>
-              <text>19.2 Conlusion personnelle</text>
-            </navLabel>
-            <content src="textes/part6-2.xhtml#part6-19.2"/>
-          </navPoint>
+          <content src="textes/part2-3.xhtml#part2-7.2"/>
+        </navPoint>
+
+        <navPoint id="ch07-3" playOrder="35">
+          <navLabel>
+            <text>7.3 Conclusion : les RMLL, lieu privilégié d’observation de la mouvance</text>
+          </navLabel>
+          <content src="textes/part2-3.xhtml#part2-7.3"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part3" playOrder="36">
+      <navLabel>
+        <text>Troisième partie — Trajectoires du Libre</text>
+      </navLabel>
+      <content src="textes/part3.xhtml#part3"/>
+
+      <navPoint id="ch08" playOrder="37">
+        <navLabel>
+          <text>Chapitre 8 Influence du Libre dans l’histoire du jeu vidéo</text>
+        </navLabel>
+        <content src="textes/part3-1.xhtml#part3-8"/>
+
+        <navPoint id="ch08-1" playOrder="38">
+          <navLabel>
+            <text>8.1 Le Libre comme philosophie originelle des jeux vidéo ?</text>
+          </navLabel>
+          <content src="textes/part3-1.xhtml#part3-8.1"/>
+        </navPoint>
+
+        <navPoint id="ch08-2" playOrder="39">
+          <navLabel>
+            <text>8.2 Du shareware au modding</text>
+          </navLabel>
+          <content src="textes/part3-1.xhtml#part3-8.2"/>
+        </navPoint>
+
+        <navPoint id="ch08-3" playOrder="40">
+          <navLabel>
+            <text>8.3 La création amateur de jeu vidéo : de l’open source au Jeu 2.0</text>
+          </navLabel>
+          <content src="textes/part3-1.xhtml#part3-8.3"/>
+        </navPoint>
+
+        <navPoint id="ch08-4" playOrder="41">
+          <navLabel>
+            <text>8.4 Conclusion</text>
+          </navLabel>
+          <content src="textes/part3-1.xhtml#part3-8.4"/>
         </navPoint>
       </navPoint>
 
-      <navPoint id="78897d8d-ad32-4756-8ba1-12621e1c2a5b" playOrder="103">
+      <navPoint id="ch09" playOrder="42">
         <navLabel>
-          <text>Annexe</text>
+          <text>Chapitre 9 Brève histoire de l’identité visuelle du Libre</text>
         </navLabel>
-        <content src="textes/annexe.xhtml#annexe"/>
-        <navPoint id="921a2407-17f5-4037-a760-09922a709ec5" playOrder="104">
+        <content src="textes/part3-2.xhtml#part3-9"/>
+
+        <navPoint id="ch09-1" playOrder="43">
           <navLabel>
-            <text>Liste des auteurs</text>
+            <text>9.1 Les quatre registres de libertés et de contraintes</text>
           </navLabel>
-          <content src="textes/annexe.xhtml#annexe-1"/>
+          <content src="textes/part3-2.xhtml#part3-9.1"/>
         </navPoint>
-        <navPoint id="0caf5014-70b8-4dd1-921f-61393af0e5dc" playOrder="105">
+
+        <navPoint id="ch09-2" playOrder="44">
           <navLabel>
-            <text>Table des matières</text>
+            <text>9.2 L’énonciation éditoriale dans la mythologie Mozilla</text>
           </navLabel>
-          <content src="textes/toc.xhtml"/>
+          <content src="textes/part3-2.xhtml#part3-9.2"/>
         </navPoint>
-        <navPoint id="0caf5014-70b8-4dd1-921f-61393af0e5db" playOrder="106">
+
+        <navPoint id="ch09-3" playOrder="45">
           <navLabel>
-            <text>Bibliographie</text>
+            <text>9.3 Y a-t-il une ergonomie propre au libre ? Le cas KDE</text>
           </navLabel>
-          <content src="textes/biblio.xhtml"/>
+          <content src="textes/part3-2.xhtml#part3-9.3"/>
         </navPoint>
+
+        <navPoint id="ch09-4" playOrder="46">
+          <navLabel>
+            <text>9.4 OpenOffice et l’apprentissage de la grammaire visuelle</text>
+          </navLabel>
+          <content src="textes/part3-2.xhtml#part3-9.4"/>
+        </navPoint>
+
+        <navPoint id="ch09-5" playOrder="47">
+          <navLabel>
+            <text>9.5 Comment Ubuntu ordonne-t-il le « fatras sémiotique » de ses utilisateurs</text>
+          </navLabel>
+          <content src="textes/part3-2.xhtml#part3-9.5"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch10" playOrder="48">
+        <navLabel>
+          <text>Chapitre 10 Free software et open source : utopie et idéologie</text>
+        </navLabel>
+        <content src="textes/part3-3.xhtml#part3-10"/>
+
+        <navPoint id="ch10-1" playOrder="49">
+          <navLabel>
+            <text>10.1 Le mariage de raison entre GNU et Linux</text>
+          </navLabel>
+          <content src="textes/part3-3.xhtml#part3-10.1"/>
+        </navPoint>
+
+        <navPoint id="ch10-2" playOrder="50">
+          <navLabel>
+            <text>10.2 La naissance du mouvement open source</text>
+          </navLabel>
+          <content src="textes/part3-3.xhtml#part3-10.2"/>
+        </navPoint>
+
+        <navPoint id="ch10-3" playOrder="51">
+          <navLabel>
+            <text>10.3 Le pragmatisme contre l’idéologie</text>
+          </navLabel>
+          <content src="textes/part3-3.xhtml#part3-10.3"/>
+        </navPoint>
+
+        <navPoint id="ch10-4" playOrder="52">
+          <navLabel>
+            <text>10.4 L’idéologue n’est pas nécessairement celui qu’on croit</text>
+          </navLabel>
+          <content src="textes/part3-3.xhtml#part3-10.4"/>
+        </navPoint>
+
+        <navPoint id="ch10-5" playOrder="53">
+          <navLabel>
+            <text>10.5 Un débat obsolète ?</text>
+          </navLabel>
+          <content src="textes/part3-3.xhtml#part3-10.5"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part4" playOrder="54">
+      <navLabel>
+        <text>Quatrième partie — Licences libres</text>
+      </navLabel>
+      <content src="textes/part4.xhtml#part4"/>
+
+      <navPoint id="ch11" playOrder="55">
+        <navLabel>
+          <text>Chapitre 11 L’évolution des licences libres et open source : critères, finalités et complétude ?</text>
+        </navLabel>
+        <content src="textes/part4-1.xhtml#part4-11"/>
+
+        <navPoint id="ch11-1" playOrder="56">
+          <navLabel>
+            <text>11.1 La distribution des cartes : le processus d’apparition des licences libres</text>
+          </navLabel>
+          <content src="textes/part4-1.xhtml#part4-11.1"/>
+        </navPoint>
+
+        <navPoint id="ch11-2" playOrder="57">
+          <navLabel>
+            <text>11.2 La consolidation et l’harmonisation des outils juridiques (depuis 2007)</text>
+          </navLabel>
+          <content src="textes/part4-1.xhtml#part4-11.2"/>
+        </navPoint>
+
+        <navPoint id="ch11-3" playOrder="58">
+          <navLabel>
+            <text>11.3 Conclusion</text>
+          </navLabel>
+          <content src="textes/part4-1.xhtml#part4-11.3"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch12" playOrder="59">
+        <navLabel>
+          <text>Chapitre 12 Libre choix ou choix du Libre ?</text>
+        </navLabel>
+        <content src="textes/part4-2.xhtml#part4-12"/>
+
+        <navPoint id="ch12-1" playOrder="60">
+          <navLabel>
+            <text>12.1 Genèse des licences libres</text>
+          </navLabel>
+          <content src="textes/part4-2.xhtml#part4-12.1"/>
+        </navPoint>
+
+        <navPoint id="ch12-2" playOrder="61">
+          <navLabel>
+            <text>12.2 Du libre à l’ouvert ?</text>
+          </navLabel>
+          <content src="textes/part4-2.xhtml#part4-12.2"/>
+        </navPoint>
+
+        <navPoint id="ch12-3" playOrder="62">
+          <navLabel>
+            <text>12.3 Une question de liberté</text>
+          </navLabel>
+          <content src="textes/part4-2.xhtml#part4-12.3"/>
+        </navPoint>
+
+        <navPoint id="ch12-4" playOrder="63">
+          <navLabel>
+            <text>12.4 Perspectives et conclusion</text>
+          </navLabel>
+          <content src="textes/part4-2.xhtml#part4-12.4"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part5" playOrder="64">
+      <navLabel>
+        <text>Cinquième partie — Études de cas</text>
+      </navLabel>
+      <content src="textes/part5.xhtml#part5"/>
+
+      <navPoint id="ch13" playOrder="65">
+        <navLabel>
+          <text>Chapitre 13 Mozilla : histoire d’une libération</text>
+        </navLabel>
+        <content src="textes/part5-1.xhtml#part5-13"/>
+
+        <navPoint id="ch13-1" playOrder="66">
+          <navLabel>
+            <text>13.1 1993 – 1997 : héritage de Mosaïc et percée de Netscape</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.1"/>
+        </navPoint>
+
+        <navPoint id="ch13-2" playOrder="67">
+          <navLabel>
+            <text>13.2 1998 – 2002 : libération de Netscape et victoire de Microsoft</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.2"/>
+        </navPoint>
+
+        <navPoint id="ch13-3" playOrder="68">
+          <navLabel>
+            <text>13.3 2003 – 2007 : fin de Netscape et succès de Firefox</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.3"/>
+        </navPoint>
+
+        <navPoint id="ch13-4" playOrder="69">
+          <navLabel>
+            <text>13.4 2008 – 2012 : la concurrence de Webkit</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.4"/>
+        </navPoint>
+
+        <navPoint id="ch13-5" playOrder="70">
+          <navLabel>
+            <text>13.5 Discussion</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.5"/>
+        </navPoint>
+
+        <navPoint id="ch13-6" playOrder="71">
+          <navLabel>
+            <text>13.6 Conclusion</text>
+          </navLabel>
+          <content src="textes/part5-1.xhtml#part5-13.6"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch14" playOrder="72">
+        <navLabel>
+          <text>Chapitre 14 Pure data, logiciel libre de productions créatives</text>
+        </navLabel>
+        <content src="textes/part5-2.xhtml#part5-14"/>
+
+        <navPoint id="ch14-1" playOrder="73">
+          <navLabel>
+            <text>14.1 Pure Data, un logiciel de programmation visuelle</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.1"/>
+        </navPoint>
+
+        <navPoint id="ch14-2" playOrder="74">
+          <navLabel>
+            <text>14.2 Dialogue entre scientifiques et artistes</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.2"/>
+        </navPoint>
+
+        <navPoint id="ch14-3" playOrder="75">
+          <navLabel>
+            <text>14.3 Questions de licences</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.3"/>
+        </navPoint>
+
+        <navPoint id="ch14-4" playOrder="76">
+          <navLabel>
+            <text>14.4 La Communauté</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.4"/>
+        </navPoint>
+
+        <navPoint id="ch14-5" playOrder="77">
+          <navLabel>
+            <text>14.5 Les atouts de Pure Data</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.5"/>
+        </navPoint>
+
+        <navPoint id="ch14-6" playOrder="78">
+          <navLabel>
+            <text>14.6 Conclusion</text>
+          </navLabel>
+          <content src="textes/part5-2.xhtml#part5-14.6"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch15" playOrder="79">
+        <navLabel>
+          <text>Chapitre 15 Wikipédia et le monde du Libre</text>
+        </navLabel>
+        <content src="textes/part5-3.xhtml#part5-15"/>
+
+        <navPoint id="ch15-1" playOrder="80">
+          <navLabel>
+            <text>15.1 De Nupedia et GNUpedia à Wikipédia, un projet né sur les bases du logiciel libre</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.1"/>
+        </navPoint>
+
+        <navPoint id="ch15-2" playOrder="81">
+          <navLabel>
+            <text>15.2 Les Wikipédiens, une communauté issue du monde du Libre</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.2"/>
+        </navPoint>
+
+        <navPoint id="ch15-3" playOrder="82">
+          <navLabel>
+            <text>15.3 Des règles de vie au sein d’un des plus grands projets collaboratifs du monde</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.3"/>
+        </navPoint>
+
+        <navPoint id="ch15-4" playOrder="83">
+          <navLabel>
+            <text>15.4 Wikipédia, un projet libre au-delà du Libre</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.4"/>
+        </navPoint>
+
+        <navPoint id="ch15-5" playOrder="84">
+          <navLabel>
+            <text>15.5 Wikipédia, un projet politique ?</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.5"/>
+        </navPoint>
+
+        <navPoint id="ch15-6" playOrder="85">
+          <navLabel>
+            <text>15.6 Conclusion</text>
+          </navLabel>
+          <content src="textes/part5-3.xhtml#part5-15.6"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch16" playOrder="86">
+        <navLabel>
+          <text>Chapitre 16 Du logiciel libre pour l’Assemblée Nationale Liberté du code versus liberté des usages</text>
+        </navLabel>
+        <content src="textes/part5-4.xhtml#part5-16"/>
+
+        <navPoint id="ch16-1" playOrder="87">
+          <navLabel>
+            <text>16.1 Genèse</text>
+          </navLabel>
+          <content src="textes/part5-4.xhtml#part5-16.1"/>
+        </navPoint>
+
+        <navPoint id="ch16-2" playOrder="88">
+          <navLabel>
+            <text>16.2 Réalisations</text>
+          </navLabel>
+          <content src="textes/part5-4.xhtml#part5-16.2"/>
+        </navPoint>
+
+        <navPoint id="ch16-3" playOrder="89">
+          <navLabel>
+            <text>16.3 Confrontations</text>
+          </navLabel>
+          <content src="textes/part5-4.xhtml#part5-16.3"/>
+        </navPoint>
+
+        <navPoint id="ch16-4" playOrder="90">
+          <navLabel>
+            <text>16.4 Usages</text>
+          </navLabel>
+          <content src="textes/part5-4.xhtml#part5-16.4"/>
+        </navPoint>
+
+        <navPoint id="ch16-5" playOrder="91">
+          <navLabel>
+            <text>16.5 En conclusion</text>
+          </navLabel>
+          <content src="textes/part5-4.xhtml#part5-16.5"/>
+        </navPoint>
+      </navPoint>
+
+      <navPoint id="ch17" playOrder="92">
+        <navLabel>
+          <text>Chapitre 17 RTFM ! La chimie computationnelle : une communauté scientifique loin du libre</text>
+        </navLabel>
+        <content src="textes/part5-5.xhtml#part5-17"/>
+
+        <navPoint id="ch17-1" playOrder="93">
+          <navLabel>
+            <text>17.1 RTFM ! What FM ?</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.1"/>
+        </navPoint>
+
+        <navPoint id="ch17-2" playOrder="94">
+          <navLabel>
+            <text>17.2 La chimie computationnelle</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.2"/>
+        </navPoint>
+
+        <navPoint id="ch17-3" playOrder="95">
+          <navLabel>
+            <text>17.3 Le terminal graphique</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.3"/>
+        </navPoint>
+
+        <navPoint id="ch17-4" playOrder="96">
+          <navLabel>
+            <text>17.4 Cinq pratiques caractéristiques du Libre</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.4"/>
+        </navPoint>
+
+        <navPoint id="ch17-5" playOrder="97">
+          <navLabel>
+            <text>17.5 Trois contraintes à la pérennité du Libre</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.5"/>
+        </navPoint>
+
+        <navPoint id="ch17-6" playOrder="98">
+          <navLabel>
+            <text>17.6 La rupture du desktop modeling</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.6"/>
+        </navPoint>
+
+        <navPoint id="ch17-7" playOrder="99">
+          <navLabel>
+            <text>17.7 La « générification » des logiciels</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.7"/>
+        </navPoint>
+
+        <navPoint id="ch17-8" playOrder="100">
+          <navLabel>
+            <text>17.8 What FM ? Tensions dans la communauté</text>
+          </navLabel>
+          <content src="textes/part5-5.xhtml#part5-17.8"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="part6" playOrder="101">
+      <navLabel>
+        <text>Sixième partie — Témoignages : Libre et institutions</text>
+      </navLabel>
+      <content src="textes/part6.xhtml#part6"/>
+
+      <navPoint id="ch18" playOrder="102">
+        <navLabel>
+          <text>Chapitre 18 Un point d’histoire de la stratégie d’Inria sur l’open source</text>
+        </navLabel>
+        <content src="textes/part6-1.xhtml#part6-18"/>
+      </navPoint>
+
+      <navPoint id="ch19" playOrder="103">
+        <navLabel>
+          <text>Chapitre 19 La place du logiciel libre au CNRS Témoignage d’un ingénieur en informatique au CNRS depuis 1984</text>
+        </navLabel>
+        <content src="textes/part6-2.xhtml#part6-19"/>
+
+        <navPoint id="ch19-1" playOrder="104">
+          <navLabel>
+            <text>19.1 Quelques faits passés</text>
+          </navLabel>
+          <content src="textes/part6-2.xhtml#part6-19.1"/>
+        </navPoint>
+
+        <navPoint id="ch19-2" playOrder="105">
+          <navLabel>
+            <text>19.2 Conlusion personnelle</text>
+          </navLabel>
+          <content src="textes/part6-2.xhtml#part6-19.2"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="backmatter" playOrder="106">
+      <navLabel>
+        <text>Annexe</text>
+      </navLabel>
+      <content src="textes/annexe.xhtml#annexe"/>
+
+      <navPoint id="auteurs" playOrder="107">
+        <navLabel>
+          <text>Liste des auteurs</text>
+        </navLabel>
+        <content src="textes/auteurs.xhtml#auteurs"/>
+      </navPoint>
+
+      <navPoint id="toc" playOrder="108">
+        <navLabel>
+          <text>Table des matières</text>
+        </navLabel>
+        <content src="textes/toc.xhtml#toc"/>
+      </navPoint>
+
+      <navPoint id="biblio" playOrder="109">
+        <navLabel>
+          <text>Bibliographie</text>
+        </navLabel>
+        <content src="textes/biblio.xhtml#biblio"/>
       </navPoint>
     </navPoint>
   </navMap>

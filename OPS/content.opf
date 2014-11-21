@@ -14,6 +14,7 @@
     <meta property="dcterms:modified">2014-10-26T01:55:00Z</meta>
   </metadata>
   <manifest>
+    <!-- images -->
     <item media-type="image/jpeg" href="images/cover.jpeg" id="cover" />
     <item media-type="image/png"  href="images/logo_frama.png" id="frama" />
     <item media-type="image/png"  href="images/Djaouti_Computer_Space_Print.png" id="added7" />
@@ -37,12 +38,12 @@
     <item media-type="image/png"  href="images/ramadefilippiimg3.png" id="added14" />
     <item media-type="image/png"  href="images/ramadefilippiimg4.png" id="added15" />
     <item media-type="image/png"  href="images/rmll_interface_revue.png" id="added5" />
+    <!-- texte -->
     <item media-type="application/xhtml+xml" href="textes/couverture.xhtml"    id="couv"          />
-    <item media-type="application/xhtml+xml" href="textes/titlepage.xhtml"     id="titlepage"     />
     <item media-type="application/xhtml+xml" href="textes/titre.xhtml"         id="titre"         />
     <item media-type="application/xhtml+xml" href="textes/infos-legales.xhtml" id="infos"         />
     <item media-type="application/xhtml+xml" href="textes/preface.xhtml"       id="preface"       />
-    <item media-type="application/xhtml+xml" href="textes/intro-gene.xhtml"    id="intro"         />
+    <item media-type="application/xhtml+xml" href="textes/introduction.xhtml"  id="intro"         />
     <item media-type="application/xhtml+xml" href="textes/remerciements.xhtml" id="remerciements" />
     <item media-type="application/xhtml+xml" href="textes/part1.xhtml"   id="part1"   />
     <item media-type="application/xhtml+xml" href="textes/part1-1.xhtml" id="part1-1" />
@@ -70,23 +71,24 @@
     <item media-type="application/xhtml+xml" href="textes/part6-1.xhtml" id="part6-1" />
     <item media-type="application/xhtml+xml" href="textes/part6-2.xhtml" id="part6-2" />
     <item media-type="application/xhtml+xml" href="textes/annexe.xhtml"  id="annexe"  />
+    <item media-type="application/xhtml+xml" href="textes/auteurs.xhtml" id="auteurs" />
     <item media-type="application/xhtml+xml" href="textes/biblio.xhtml"  id="biblio"  />
     <item media-type="application/xhtml+xml" href="textes/toc.xhtml"     id="toc"  properties="nav" />
+    <!-- style -->
     <item media-type="text/css" href="styles/stylesheet.css"      id="stylesheet"     />
     <item media-type="text/css" href="styles/framabook.css"       id="framabook"      />
     <item media-type="text/css" href="styles/captain-obvious.css" id="captain-obvious"/>
     <item media-type="text/css" href="styles/relecture.css"       id="relecture"      />
     <item media-type="text/css" href="styles/sms.css"             id="sms"            />
+    <!-- compatibilité EPUB2 — les lecteurs EPUB3 utilisent item[properties=nav] -->
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="ncx"/>
   </manifest>
   <spine toc="ncx">
-    <itemref idref="titlepage"/>
     <itemref idref="titre"/>
     <itemref idref="infos"/>
     <itemref idref="preface"/>
     <itemref idref="intro"/>
     <itemref idref="remerciements"/>
-    <itemref idref="toc"/>
     <itemref idref="part1"/>
     <itemref idref="part1-1"/>
     <itemref idref="part1-2"/>
@@ -113,6 +115,8 @@
     <itemref idref="part6-1"/>
     <itemref idref="part6-2"/>
     <itemref idref="annexe"/>
+    <itemref idref="auteurs"/>
+    <itemref idref="toc"/>
     <itemref idref="biblio"/>
   </spine>
   <guide>
