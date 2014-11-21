@@ -137,7 +137,4 @@
     <itemref idref="toc"/>
     <itemref idref="biblio"/>
   </spine>
-  <guide>
-    <reference href="textes/titre.xhtml" type="cover" title="Cover"/>
-  </guide>
 </package>
