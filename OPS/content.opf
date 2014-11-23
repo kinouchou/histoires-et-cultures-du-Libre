@@ -102,6 +102,7 @@
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="ncx"/>
   </manifest>
   <spine toc="ncx">
+    <itemref idref="couv"/>
     <itemref idref="titre"/>
     <itemref idref="infos"/>
     <itemref idref="preface"/>
